@@ -704,9 +704,9 @@ class IndexController extends Controller {
 //             var_dump($re);
 //             $str = "F5:15:BD:BC:D6:37:E6:39:43:A3:7B:CA:7A:6E:99:E5";
 //             echo (str_replace(':',"",$str));
-            $pcar = new PcarModel();
-            $re = $pcar->checkSetState('yc1507975698','-1');
-            var_dump($re);
+//             $pcar = new PcarModel();
+//             $re = $pcar->checkSetState('yc1507975698','-1');
+//             var_dump($re);
         
     }
     
