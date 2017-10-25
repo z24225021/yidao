@@ -1,0 +1,68 @@
+[ 2017-10-10T11:15:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 128 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 151 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` IN ('0','1') AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0006s ]
+
+[ 2017-10-10T14:59:30+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-10-10T17:54:10+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-10-10T19:02:11+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+

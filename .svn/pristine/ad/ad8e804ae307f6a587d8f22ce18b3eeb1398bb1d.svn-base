@@ -1,0 +1,36 @@
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary" onclick="window.location.href='{:U(\"Menu/addMenu\")}'"> 添加列表</button>
+</div>
+<table class="table" >
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>PID</th>
+      <th>序号</th>
+      <th>URL</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+  <volist name="mlist" id="vo" empty="暂时没有数据"  offset="0"  key="k">
+    <tr>
+      <td>{$k}</td>
+      <td>{$vo['id']}</td>
+      <td>{$vo['name']}</td>
+      <td>{$vo['pid']}</td>
+      <td>{$vo['order']}</td>
+      <td>{$vo['url']}</td>
+      <td>
+          <a href="{:U('Menu/update',array('mid'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+           <a href="{:U('Menu/delete',array('mid'=>$vo['id']))}"  onclick="return del()" ><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    </volist>
+  </tbody>
+  
+</table>
+
+

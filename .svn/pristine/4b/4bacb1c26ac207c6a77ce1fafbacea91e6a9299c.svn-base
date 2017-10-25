@@ -1,0 +1,97 @@
+<?php
+
+namespace Home\Model;
+use Think\Model;
+
+/**
+ * 
+ * @author
+ * @version 
+ */
+class PcarModel extends Model
+{
+    protected $trueTableName = "yd_carlist";
+    /**
+     * 发布订单
+     * @return number|mixed|boolean|unknown|string|string
+     */
+    function orderCar(){
+        $data = array(
+            'id' =>'fc'.time(), 
+            'line' => $_POST['line'],
+            'type' => $_POST['type'],
+            'startxy' => $_POST['startxy'],
+            'startaddr' => $_POST['startaddr'],
+            'endxy' => $_POST['endxy'],
+            'endaddr' => $_POST['endaddr'],
+            'contact_name' => $_POST['contact_name'],
+            'phonenum' => $_POST['phonenum'],
+            'pnum' => $_POST['pnum'],
+            'book_time' => $_POST['book_time'],
+            'remark' => $_POST['remark'],
+            'uid' => $_POST['uid']
+        );
+        if($this->create($data)){
+            $uid = $this->add($data);
+            return $uid ? $uid : 0;
+        } else {
+            return $this->getError();
+        }
+    }
+    /**
+     * 修改约车订单
+     * @return number|boolean|string
+     */
+    function editCarOrder(){
+        $data = array(
+            'id' => $_POST['id'],
+            'startxy' => $_POST['startxy'],
+            'startaddr' => $_POST['startaddr'],
+            'endxy' => $_POST['endxy'],
+            'endaddr' => $_POST['endaddr'],
+            'contact_name' => $_POST['contact_name'],
+            'phonenum' => $_POST['phonenum'],
+            'pnum' => $_POST['pnum'],
+            'book_time' => $_POST['book_time'],
+            'remark' => $_POST['remark'],
+        );
+        if($this->create($data)){
+            $uid = $this->save($data);
+            return $uid ? $uid : 0;
+        } else {
+            return $this->getError();
+        }
+    }    
+    
+    /**
+     * 判断用户没订单，或者订单已完成
+     * @return boolean
+     */
+    function checkCarOrder(){
+        $map['uid'] = $_POST['uid'];
+        $order = $this->where($map)->find();
+        if(!is_array($order)|| $order['state']==0){//判断用户没订单，或者订单已完成
+            return true;
+        } else {
+            return false; 
+        }
+    }
+    
+    
+    /**
+     * 获取订单信息
+     * @return mixed|boolean|NULL|string|unknown|array|object
+     */
+    function getCarInfo(){
+        $map['id'] = $_POST['id'];
+        $order = $this->where($map)->find();
+        return $order;
+    }
+    
+    
+    function getCarList(){
+        $map['uid'] = $_POST['uid'];
+        $list = $this->where($map)->select();
+        return $list;
+    }
+}

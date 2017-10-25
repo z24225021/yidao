@@ -1,0 +1,95 @@
+
+<div class="btn-toolbar list-toolbar">
+	<div class="btn btn-primary">{$title}</div>
+</div>
+<div id="home" class="">
+	<form action="__SELF__"  method="post">
+		<div class="form-group col-md-12">
+			<input type="hidden" name="id" value="{$info['id']}"> 
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+			<label>标题</label><br>
+			<div class="col-md-6">
+			<input type="text" name="title" class="form-control"
+				value="{$info['title']}" placeholder="请输入新闻标题">
+				</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>副标题</label> <br>
+			<div class="col-md-6">
+			<input type="text" name="subtitle"
+				class="form-control" value="{$info['subtitle']}"
+				placeholder="请输入副标题">
+				</div>
+		</div>
+		<div class="form-group col-md-2">
+			<label>类型</label><br>
+			<div class="col-md-12">
+			 <select name="type" id="dropState"
+				class="form-control">
+				<option value="0"<if
+						condition="($info['type'] eq 0)"> selected="selected" </if> >预约
+				</option>
+				<option value="1"<if
+						condition="($info['type'] eq 1)"> selected="selected" </if> >进行中
+				</option>
+				<option value="2"<if
+						condition="($info['type'] eq 2)"> selected="selected" </if> >完成
+				</option>
+				<option value="3"<if
+						condition="($info['type'] eq 3)"> selected="selected" </if> >取消
+				</option>
+				<option value="4"<if
+						condition="($info['type'] eq 4)"> selected="selected" </if> >待定
+				</option>
+			</select>
+			</div>
+		</div>
+		<div class="form-group col-md-2">
+			<label>状态</label><br>
+			<div class="col-md-12">
+			 <select name="state" id="dropState"
+				class="form-control">
+				<option value="0"<if
+						condition="($info['state'] eq 0)"> selected="selected" </if> >显示
+				</option>
+				<option value="1"<if
+						condition="($info['state'] eq 1)"> selected="selected" </if> >不显示
+				</option>
+			</select>
+			</div>
+		</div>
+		<div class="form-group col-md-8">
+			<label>作者</label> <br>
+			<div class="col-md-3">
+				<input type="text" name="author"
+				class="form-control" value="{$info['author']}"
+				placeholder="请输入作者">
+				</div>
+			</div>
+		</div>
+		
+		<div class="form-group col-md-12">
+			<label>内容</label><br>
+			<div id="editor-container" class="col-md-6">
+				 <textarea class="textarea" id="editor-trigger" name="content" placeholder="请输入" style="height: 300px; font-size: 14px; line-height: 18px;">{$info['content']}</textarea>
+			</div>
+		</div>
+		
+		<div class="form-group col-md-12">
+			<label>备注</label><br />
+			<div class="col-md-6">
+				<input type="text" name="remark" class="form-control"
+					value="{$info['remark']}" placeholder="请输入备注">
+			</div>
+		</div>
+
+		<div class="btn-toolbar list-toolbar">
+			<button type="submit" class="btn btn-primary">
+				<i class="fa fa-save"></i> 保存
+			</button>
+			<button type="reset" class="btn btn-danger">
+				<i class="fa fa-reset"></i> 重置
+			</button>
+		</div>
+	</form>
+</div>

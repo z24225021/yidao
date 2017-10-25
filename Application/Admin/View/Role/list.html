@@ -1,0 +1,35 @@
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary">{$title}</button>
+</div>
+<div style="height:600px">
+<table class="table" >
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>ROLEID</th>
+      <th>角色名称</th>
+      <th>角色规则</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+   <volist name="list" id="vo" offset="0" length='10' empty="暂时没有数据">
+    <tr>
+      <td>{$i}</td>
+      <td>{$vo['id']}</td>
+      <td>{$vo['name']}</td>
+      <td>{$vo['rules']}</td>
+      <td>
+		<a href="{:U('redit',array('rid'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+        <a href="{:U('rdelete',array('rid'=>$vo['id']))}"  onclick="return del()" ><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    </volist>
+  </tbody>
+</table>
+</div>
+<div class="view_center">
+	<div class="pagination" >{$page}</div>
+</div>
+
+

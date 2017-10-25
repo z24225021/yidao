@@ -1,0 +1,89 @@
+
+<div class="btn-toolbar list-toolbar">
+	<div class="btn btn-primary">{$title}</div>
+</div>
+<div id="home" class="">
+	<form action="__SELF__"  method="post">
+		<div class="form-group col-md-12">
+			<input type="hidden" name="id" value="{$info['id']}"> 
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+			<label>分类选择</label><br>
+			<div class="col-md-6">
+			 <select name="pid" id="dropPid"
+				class="form-control" onclick="setType(this)">
+				<option value="">请选择类别
+				<volist name="type" id="vo" empty="暂时没有数据" >
+				<option value="{$vo['id']}" 
+				<if condition="($vo['id'] eq $info['pid'])"> selected="selected" </if> 
+				>{$vo['id']}--{$vo['name']}
+				</option>
+				</volist>
+			</select>
+				</div>
+				
+		</div>
+		<div class="form-group col-md-12">
+			<label>子类名称</label> <br>
+			<div class="col-md-6">
+			<input type="text" name="name"
+				class="form-control" value="{$info['name']}"
+				placeholder="请输入子类名称">
+			</div>
+		</div>
+		
+		<div class="form-group col-md-12">
+			<label>
+			次序
+			</label> <br>
+			<div class="col-md-6">
+				<input type="text" name="order"
+				class="form-control" value="{$info['order']}"
+				placeholder="请输入次序">
+				</div>
+			</div>
+		</div>
+		
+		<div class="form-group col-md-12">
+			<label>URL</label><br />
+			<div class="col-md-6">
+				<input type="text" name="url" class="form-control"
+					value="{$info['url']}" placeholder="请输入地址">
+			</div>
+		</div>
+
+		<div class="btn-toolbar list-toolbar">
+			<button type="button" class="btn btn-primary">
+				<i class="fa fa-save"></i> 保存
+			</button>
+			<button type="reset" class="btn btn-danger">
+				<i class="fa fa-reset"></i> 重置
+			</button>
+		</div>
+	</form>
+</div>
+<script type="text/javascript">
+$(function(){
+	  $('button:button').click(function(){
+		  var selectobj = $("#dropPid").val();
+		  if(selectobj!=""){
+		 	 $('form').submit();
+		  }
+		   /* 	var url = $('form').attr('action');
+			$.ajax({
+	             type:'post',
+	             url:url,
+	             data:$('form').serialize(),
+	             dataType:'json',
+	             success:function(data){
+	           	 $('.check-tips').html(data.msg);
+	             setTimeout(function () { 
+	             	 if(data.flag==200){ 
+	                     location.href = data.url; 
+	                 }
+	             }, 1000);
+	            }
+	        }); */
+	  }) 
+})
+
+</script>

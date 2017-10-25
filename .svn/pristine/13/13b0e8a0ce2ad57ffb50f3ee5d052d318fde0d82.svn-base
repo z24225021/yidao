@@ -1,0 +1,30 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Think\Think;
+use Think\Verify;
+use Home\Model\UserModel;
+/**
+ * 
+ * @author zhou
+ * 炼人的世界，生活亦如此
+ */
+
+
+class UserController extends IndexController {
+    
+    
+    public function index(){
+
+        $this->display('index');
+    }
+    
+    public function ulist(){
+        
+        $this->display('list');
+    }
+    public function add(){
+      
+        $this->display('add');
+    }
+}

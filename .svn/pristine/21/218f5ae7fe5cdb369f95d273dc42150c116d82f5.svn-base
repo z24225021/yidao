@@ -1,0 +1,606 @@
+[ 2017-01-17T14:59:41+08:00 ] 127.0.0.1 /yidao/index.php/admin/Index/contact.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+ERR: 非法操作:contact
+
+[ 2017-01-17T14:59:51+08:00 ] 127.0.0.1 /yidao/index.php/admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+ERR: 非法操作:index
+
+[ 2017-01-17T14:59:55+08:00 ] 127.0.0.1 /yidao/index.php/admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002680s ]
+
+[ 2017-01-17T15:00:27+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/logout.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-17T15:00:27+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-17T15:00:36+08:00 ] 127.0.0.1 /yidao/index.php/Admin/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-01-17T15:00:37+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-01-17T15:01:32+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-01-17T15:01:35+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-01-17T15:01:41+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `yd_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `yd_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-01-17T15:01:44+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-01-17T15:02:29+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 127 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 132 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 139 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 150 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 152 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 154 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 156 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 158 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 171 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 173 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 175 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 177 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 179 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 181 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 187 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 195 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 203 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 205 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 207 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 209 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 211 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 235 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 243 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 250 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 258 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 261 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 264 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 267 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-01-17T15:02:34+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_carlist` (`start_city`,`start_addr`,`end_city`,`end_addr`,`contact_name`,`phonenum`,`pnum`,`info_from`,`driver`,`book_time`,`state`,`remark`,`uid`) VALUES ('0','','0','','dfs ','','0','','0','','0','','1') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-01-17T15:02:36+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/clist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yd_carlist` ORDER BY create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-01-17T15:03:01+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 127 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 132 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 139 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 150 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 152 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 154 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 156 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 158 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 171 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 173 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 175 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 177 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 179 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 181 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 187 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 195 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 203 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 205 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 207 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 209 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 211 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 235 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 243 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 250 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 258 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 261 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 264 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 267 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-01-17T15:03:17+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_carlist` (`start_city`,`start_addr`,`end_city`,`end_addr`,`contact_name`,`phonenum`,`pnum`,`info_from`,`driver`,`book_time`,`state`,`remark`,`uid`) VALUES ('0','','0','','sdf','1212122','2','','0','2017-01-18 18:50','0','','1') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-01-17T15:03:19+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/clist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yd_carlist` ORDER BY create_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-01-17T15:06:16+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/alist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `yd_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yd_admin` ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-17T15:07:50+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/logout.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-01-17T15:07:50+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-01-17T15:08:00+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `yd_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yd_admin` WHERE `username` = 'miao' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-01-17T15:08:03+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-01-17T15:08:06+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 127 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 132 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 139 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 150 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 152 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 154 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 156 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 158 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 171 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 173 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 175 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 177 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 179 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 181 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 187 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 195 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 203 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 205 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 207 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 209 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 211 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 235 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 243 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 250 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 258 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 261 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 264 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 267 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-01-17T15:09:23+08:00 ] 192.168.1.106 /yidao/admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-01-17T15:09:38+08:00 ] 192.168.1.106 /yidao/index.php/Admin/Pcar/add.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 127 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 132 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 139 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 150 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 152 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 154 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 156 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 158 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 164 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 171 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 173 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 175 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 177 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 179 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 181 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 187 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 195 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 203 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 205 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 207 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 209 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 211 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 235 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 243 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 250 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 258 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 261 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 264 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 267 行.
+NOTIC: [8] Undefined variable: admin F:\AppServ\www\yidao\Runtime\Cache\Admin\3756e25da858f601ed0b9973fd063fdb.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-01-17T15:10:43+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+

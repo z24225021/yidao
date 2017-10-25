@@ -1,0 +1,58 @@
+
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary">{$title}</button>
+<!--     <button class="btn btn-default">导入</button>
+    <button class="btn btn-default">导出</button> -->
+</div>
+
+<table class="table" >
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>录入时间</th>
+      <th>预约日期</th>
+      <th>出发地址</th>
+      <th>终点地址</th>
+      <th>人数</th>
+      <th>联系电话</th>
+      <th>联系人</th>
+      <th>状态</th>
+      <th>信息来源</th>
+      <th>司机</th>
+      <th>备注</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+   <volist name="clist" id="vo" offset="0" length='10' empty="暂时没有数据">
+    <tr>
+      <td>{$i}</td>
+      <td>{$vo['create_time']}</td>
+      <td>{:date("Y-m-d H:i:s",$vo['book_time'])}</td>
+      <td>{$vo['startaddr']}</td>
+      <td>{$vo['endaddr']}</td>
+      <td>{$vo['pnum']}</td>
+      <td>{$vo['phonenum']}</td>
+      <td>{$vo['contact_name']}</td>
+      <td>
+		  <if condition="($vo['state'] eq 0)">预约</if> 
+		  <if condition="($vo['state'] eq 1)">进行中</if> 
+		  <if condition="($vo['state'] eq 2)">完成</if> 
+		  <if condition="($vo['state'] eq 3)">取消</if> 
+		  <if condition="($vo['state'] eq 4)">待定</if>
+      </td>
+      <td>{$vo['info_from']}</td>
+      <td>{$vo['driver']}</td>
+      <td>{$vo['remark']}</td>
+      <td>
+		<a href="{:U('cedit',array('cid'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+        <a href="{:U('cdelete',array('cid'=>$vo['id']))}"  onclick="return del()" ><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    </volist>
+  </tbody>
+</table>
+<div class="view_center">
+	<div class="pagination pagination-lg" >{$page}</div>
+</div>
+

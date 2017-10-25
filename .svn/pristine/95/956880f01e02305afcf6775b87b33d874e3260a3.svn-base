@@ -1,0 +1,19 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<link rel="stylesheet" href="/yidao/Public/bootstrapall/css/bootstrap.css">
+<script type="text/javascript" src="/yidao/Public/bootstrapall/js/jquery-3.1.0.min.js"></script> 
+<script type="text/javascript" src="/yidao/Public/bootstrapall/js/bootstrap.js"></script>
+
+
+<div>
+<a>
+
+hello world!!!
+
+</a>
+<a href="#" id="dropdownMenu1"  data-toggle="dropdown"  ><?php echo S('user')['username'];?> <b class="caret"></b></a>
+									<ul  class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                		<li><a href="">修改密码</a></li>
+                                		<li><a href="<?php echo U('Index/selfCenter');?>">个人中心</a></li>
+                                		<li><a href="<?php echo U('logout');?>">退出</a></li>
+                            		</ul>
+</div>

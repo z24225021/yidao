@@ -1,0 +1,89 @@
+<?php
+namespace Admin\Model;
+use Think\Model;
+
+/**
+ * {0}
+ * 
+ * @author
+ * @version 
+ */
+class PcarModel extends Model{
+    protected $trueTableName = 'yd_carlist';
+    function addPcar() {
+        $data=array(
+            'start_city' =>$_POST['start_city'],
+            'start_addr' =>$_POST['start_addr'],
+            'end_city'=>$_POST['end_city'],
+            'end_addr' =>$_POST['end_addr'],
+            'contact_name' =>$_POST['contact_name'],
+            'phonenum' =>$_POST['phonenum'],
+            'pnum' =>$_POST['pnum'],
+            'info_from' =>$_POST['info_from'],
+            'driver' =>$_POST['driver'],
+            'book_time' =>$_POST['book_time'],
+            'state' =>$_POST['state'],
+            'remark' =>$_POST['remark'],
+            'uid' =>$_POST['uid'],
+        );
+        /* 添加用车信息*/
+        if($this->create($data)){
+            $uid = $this->add($data);
+            return $uid ? $uid : 0; 
+        } else {
+            return $this->getError(); 
+        }
+        
+    }
+    function getPcars(){
+        $admin = $this->order('create_time desc')->select();
+        return $admin;
+    }
+    
+    function findOne($param){
+        $where = array('id'=>$param);
+//         var_dump($where);
+        $admin = $this->where($where)->find();
+        return $admin;
+    }
+    
+    function editPcar(){
+        $data=array(
+            'id'=>$_POST['id'],
+            'start_city' =>$_POST['start_city'],
+            'start_addr' =>$_POST['start_addr'],
+            'end_city'=>$_POST['end_city'],
+            'end_addr' =>$_POST['end_addr'],
+            'contact_name' =>$_POST['contact_name'],
+            'phonenum' =>$_POST['phonenum'],
+            'pnum' =>$_POST['pnum'],
+            'info_from' =>$_POST['info_from'],
+            'driver' =>$_POST['driver'],
+            'book_time' =>$_POST['book_time'],
+            'state' =>$_POST['state'],
+            'remark' =>$_POST['remark'],
+            'uid' =>$_POST['uid'],
+        );
+        /* 更新用户 */
+        if($this->create($data)){
+            $cid = $this->save($data);
+            return $cid ;
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        }
+    }
+    
+    
+    
+    
+    function deletePcar($param){
+        $where = array('id'=>$param);
+        return $this->where($where)->delete();
+    }
+    
+    function updateLogin($id){
+        
+        
+        
+    }
+}

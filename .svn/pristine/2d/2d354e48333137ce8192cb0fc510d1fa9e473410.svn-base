@@ -1,0 +1,77 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Admin\Model\MenuModel;
+
+
+class MenuController extends IndexController {
+    
+    public function index(){
+        layout('Layout/layout');
+        $this->display();
+    }
+    
+    
+    
+    public function mlist(){
+       $menu=new MenuModel();
+       $mlist=$menu->getMenu();
+//        var_dump($mlist);
+       $this->assign("mlist",$mlist);
+       $this->display('Menu/list') ; 
+    }
+    
+    public function addMenu(){
+        $menu=new MenuModel();
+        if(empty($_POST)){
+            $this->assign('title','添加列表信息');
+            $type=$menu->getType();
+            $this->assign('type',$type);
+            $this->display('Menu/add');
+        }else{
+            $result=$menu->addMenu();
+            if($result>0){
+                $this->success("操作成功！！","mlist",2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function update(){
+        $menu=new MenuModel();
+        if(empty($_POST)){
+            $info = $menu->findOne($_GET['mid']);
+            var_dump($info);
+            $type=$menu->getType();
+            $this->assign('type',$type);
+            $this->assign('title','更新类别');
+            $this->assign('info',$info);
+            $this->display('Menu/add');
+        }else{
+            $result=$menu->updateType();
+            if($result>=0){
+                $this->success("操作成功！！",U('mlist'),2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function delete(){
+        $menu=new MenuModel();
+        $result=$menu->deleteMenu($_GET['mid']);
+        if($result>0){
+            $this->success("操作成功！！",U('mlist'),2);
+        }else{
+            $this->error("操作失败！！请重试");
+        } 
+    }
+    
+    
+    public function register() {
+       $this->display('register') ;
+    }
+    
+    
+}

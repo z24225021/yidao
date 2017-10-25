@@ -1,0 +1,83 @@
+[ 2016-12-22T09:23:00+08:00 ] 127.0.0.1 /yidao/Admin/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/user.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/images/blog/625998_12886207.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/images/blog/737034_24905666.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/images/blog/503993_62595320.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/images/blog/789080_16753532.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/images/blog/888272_30368604.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-12-22T09:23:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/lib/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+ERR: 非法操作:lib
+
+[ 2016-12-22T09:23:39+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/sign-in.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+ERR: 非法操作:sign-in.html
+

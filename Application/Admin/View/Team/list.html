@@ -1,0 +1,33 @@
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary"><a href="{:U('tadd')}"><i class="fa fa-plus"></i>添加车队</a></button>
+</div>
+
+<div style="height:600px">
+<table class="table">
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>车队名称</th>
+      <th>车队路线</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+  <volist name="teams" id="vo" offset="0" length='10' empty="暂时没有数据">
+      <tr>
+      <td>{$vo.id}</td>
+      <td>{$vo.name}</td>
+      <td>{$vo.lines}</td>
+      <td>
+          <a href="{:U('tedit',array('id'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+         <a href="{:U('tdelete',array('id'=>$vo['id']))}" onclick="return del()" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+  </volist>
+    
+  </tbody>
+</table>
+</div>
+<div class="view_center">
+	<div class="pagination" >{$page}</div>
+</div>

@@ -1,0 +1,100 @@
+<?php
+namespace Admin\Model;
+use Think\Model;
+
+/**
+ * {0}
+ * 
+ * @author
+ * @version 
+ */
+class PcarModel extends Model{
+    protected $trueTableName = 'yd_orderlist';
+    function addPcar() {
+        $data=array(
+            'id' =>'yc'.time(),
+            'line' => $_POST['line'],
+            'type' => $_POST['type'],
+            'startxy' => $_POST['startxy'],
+            'startaddr' => $_POST['startaddr'],
+            'endxy' => $_POST['endxy'],
+            'endaddr' => $_POST['endaddr'],
+            'contact_name' => $_POST['contact_name'],
+            'phonenum' => $_POST['phonenum'],
+            'pnum' => $_POST['pnum'],
+            'pay' => $_POST['pay'],
+            'book_time' => $_POST['book_time'],
+            'remark' => $_POST['remark'],
+            'uid' => $_POST['uid'],
+            'rname' =>$_POST['rname'],
+            'rphone' =>$_POST['rphone'],
+            'gname' =>$_POST['gname'],
+            'gtype' =>$_POST['gtype'],
+            'gweight' =>$_POST['gweight'],
+            'glong' =>$_POST['glong'],
+            'gwidth' =>$_POST['gwidth'],
+            'gheight' =>$_POST['gheight'],
+        );
+        /* 添加用车信息*/
+        if($this->create($data)){
+            $uid = $this->add($data);
+            return $uid ? $uid : 0; 
+        } else {
+            return $this->getError(); 
+        }
+        
+    }
+    function getPcars(){
+        $clist = $this->order('create_time desc')->select();
+        return $clist;
+    }
+    
+    function findOne($param){
+        $where = array('id'=>$param);
+//         var_dump($where);
+        $admin = $this->where($where)->find();
+        return $admin;
+    }
+    
+    function editPcar(){
+        $data = array(
+            'id' => $_POST['id'],
+            'line' => $_POST['line'],
+            'type' => $_POST['type'],
+            'startxy' => $_POST['startxy'],
+            'startaddr' => $_POST['startaddr'],
+            'endxy' => $_POST['endxy'],
+            'endaddr' => $_POST['endaddr'],
+            'contact_name' => $_POST['contact_name'],
+            'phonenum' => $_POST['phonenum'],
+            'pnum' => $_POST['pnum'],
+            'pay' => $_POST['pay'],
+            'book_time' => $_POST['book_time'],
+            'remark' => $_POST['remark'],
+            'uid' => $_POST['uid'],
+            'rname' =>$_POST['rname'],
+            'rphone' =>$_POST['rphone'],
+            'gname' =>$_POST['gname'],
+            'gtype' =>$_POST['gtype'],
+            'gweight' =>$_POST['gweight'],
+            'glong' =>$_POST['glong'],
+            'gwidth' =>$_POST['gwidth'],
+            'gheight' =>$_POST['gheight'],
+        );
+        if($this->create($data)){
+            $cid = $this->save($data);
+            return $cid ;
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        }
+    }
+    
+    
+    
+    
+    function deletePcar($param){
+        $where = array('id'=>$param);
+        return $this->where($where)->delete();
+    }
+    
+}

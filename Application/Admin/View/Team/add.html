@@ -1,0 +1,36 @@
+<div class="btn-toolbar list-toolbar">
+    <div class="btn btn-primary">{$title}</div>
+</div>
+<div class="tab-pane active in" id="home">
+      <form id="tab" action="__SELF__" method="post">
+      	<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+      	<input type="hidden" name="id" value="{$info['id']}">
+        <div class="form-group">
+        <label>车队名称</label>
+          <input type="text" name="name" id="name" class="form-control" value="{$info['name']}"  placeholder="请输入车队名称">
+        	<p id="eerror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>线路选择</label>
+			<div>
+				<volist name="lines" id="vo">
+					<label class="checkbox-inline"> 
+					<input type="checkbox"
+						name="line[]" value="{$vo.id}"
+						<in name="vo['id']" value="$info['lines']">checked="checked"</in>  
+						>{$vo.name}
+					</label>
+				</volist>
+			</div>
+		</div>
+	    <div class="btn-toolbar list-toolbar">
+	      <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存</button>
+	      <button type="reset" class="btn btn-danger"><i class="fa fa-reset"></i> 重置</button>
+	    </div>
+        </form>
+</div>
+      
+      
+      
+      
+      

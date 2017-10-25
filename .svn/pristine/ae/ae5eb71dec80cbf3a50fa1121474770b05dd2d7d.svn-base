@@ -1,0 +1,9 @@
+<?php
+namespace Application\Lib\Tool;
+
+class Tool
+{
+    
+}
+
+?>

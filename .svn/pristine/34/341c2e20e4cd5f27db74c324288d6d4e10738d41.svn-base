@@ -1,0 +1,212 @@
+[ 2017-03-07T15:52:14+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001705s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-03-07T15:52:18+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/alist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `yd_admin` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `yd_admin` ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-03-07T15:52:21+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yd_type` WHERE ( tid = 0 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-03-07T15:52:23+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/addUnit.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+ERR: 非法操作:addUnit
+
+[ 2017-03-07T15:52:28+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/addMenu.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+ERR: 非法操作:addMenu
+
+[ 2017-03-07T15:52:32+08:00 ] 127.0.0.1 /yidao/index.php/Admin/News/nlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `yd_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_news`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-03-07T15:52:37+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-03-07T15:52:39+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/clist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yd_carlist` ORDER BY create_time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-03-07T16:08:45+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yd_type` WHERE ( tid = 0 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-03-07T16:12:08+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yd_type` WHERE ( tid = 0 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-03-07T16:12:16+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_type` WHERE ( tid = 0 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+

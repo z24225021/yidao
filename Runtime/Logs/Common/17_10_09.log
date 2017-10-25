@@ -1,0 +1,12 @@
+[ 2017-10-09T10:01:46+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Public
+
+[ 2017-10-09T10:01:51+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/loading_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Public
+

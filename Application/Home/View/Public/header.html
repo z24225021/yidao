@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>河南一道科技有限公司</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+
+
+<link rel="stylesheet" href="__PUBLIC__/static/css/animate.css">
+<link rel="stylesheet" href="__PUBLIC__/static/css/icomoon.css">
+<link rel="stylesheet" href="__PUBLIC__/static/css/flexslider.css">
+<link rel="stylesheet" href="__PUBLIC__/static/css/style.css">
+
+<link href="__PUBLIC__/bootstrapall/css/docs.css" rel="stylesheet">
+<link href="__PUBLIC__/bootstrapall/css/onethink.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/datetimepicker.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/lib/font-awesome/css/font-awesome.css">
+
+
+	<script type="text/javascript" src="__PUBLIC__/bootstrapall/js/jquery-3.1.0.min.js"></script> 
+	<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap-datetimepicker.zh-CN.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/bootstrapall/js/bootstrap.js"></script>
+	<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap.js"></script>
+<style type="text/css">
+h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway","微软雅黑", Arial, sans-serif,"黑体";
+}
+
+.lia{
+	padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border: 2px solid #27e1ce;
+    color: #27E1CE;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+	transition: 0.2s;
+}
+
+</style>
+<script type="text/javascript">
+
+$(function () {
+    $(".faq-tabbable").find("li").each(function () {
+        var a = $(this).find("a:first")[0];
+        if ($(a).attr("href") === location.pathname) {
+            $(this).addClass("active");
+        } else {
+            $(this).removeClass("active");
+        }
+    });
+})
+</script>
+</head>
+<body >
+		<header id="fh5co-header" role="banner">
+			<div class="container">
+				<div class="header-inner">
+					<h1>
+						一道科技
+					</h1>
+					<nav role="navigation">
+						 <ul>
+								<li <if condition="$titleli eq 'index' ">class='active'</if>>
+								<a href="{:U('Index/index')}">首页</a></li>
+								<li <if condition="$titleli eq 'about' ">class='active'</if>>
+								<a href="{:U('Index/about')}">公司简介</a></li>
+								<li <if condition="$titleli eq 'news' ">class='active'</if>>
+								<a href="{:U('Index/news')}">公司动态</a></li>
+								<li <if condition="$titleli eq 'contact' ">class='active'</if>>
+								<a href="{:U('Index/contact')}">联系我们</a></li>
+							<!--	<li><a class="lia" style="color:#27E1CE;" href="{:U('Index/login')}">会员登录</a></li>
+							<if condition="S('user') eq null">
+							 <else /> 
+								<li><a href="{:U('Home/ycar')}">我要约车</a></li>
+								<li><a href="{:U('Home/test')}">测试</a></li>
+	                            <li ><a href="{:U('Home/selfCenter')}" >我的订单</a></li>
+								<div class="dropdown pull-right">  
+									<li ><a href="#" class="lia" style="color:#27E1CE;" data-toggle="dropdown" >{:S('user')['username']} <b class="caret"></b></a>
+										<ul class="dropdown-menu " style="min-width:120px" >
+	                                		<li ><a href="{:U('Home/selfCenter')}" >个人中心</a></li>
+	                                		<li ><a href="{:U('Home/logout')}" >注销登录</a></li>
+	                            		</ul>
+									</li>
+								</div>
+							</if>-->
+						</ul> 
+					</nav>
+				</div>
+			</div>
+		</header>

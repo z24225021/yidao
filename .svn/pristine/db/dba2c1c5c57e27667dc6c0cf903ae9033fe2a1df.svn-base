@@ -1,0 +1,42 @@
+[ 2017-02-15T09:40:59+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002202s ]
+
+[ 2017-02-15T14:30:19+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Pcar/clist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `yd_carlist` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `yd_carlist` ORDER BY create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+

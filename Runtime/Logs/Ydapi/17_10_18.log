@@ -1,0 +1,84 @@
+[ 2017-10-18T10:03:32+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-10-18T16:01:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 500 行.
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0096s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0247s ]
+
+[ 2017-10-18T16:59:10+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-10-18T17:31:39+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+DEBUG: xml:oid=yc1506333878
+[ 2017-10-18T17:31:39+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+DEBUG: data:false
+[ 2017-10-18T17:31:39+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): oid=yc1506333878 F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, boolean given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.NotifyCallBack.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-10-18T18:17:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+DEBUG: xml:oid=yc1506333878
+[ 2017-10-18T18:17:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+DEBUG: data:false
+[ 2017-10-18T18:17:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): oid=yc1506333878 F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Data.php 第 84 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, boolean given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.NotifyCallBack.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+

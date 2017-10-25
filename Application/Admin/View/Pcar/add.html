@@ -1,0 +1,178 @@
+<div class="btn-toolbar list-toolbar">
+	<div class="btn btn-primary">{$title}</div>
+</div>
+<div id="home" class="">
+	<form action="__SELF__"  method="post">
+		<div class="form-group col-md-12">
+			<input type="hidden" name="id" value="{$info['id']}"> 
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+			<label>联系人</label><br>
+			<div class="col-md-6">
+			<input type="text" name="contact_name" class="form-control"
+				value="{$info['contact_name']}" placeholder="请输入联系人姓名">
+				</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>电话</label> <br>
+			<div class="col-md-6">
+			<input type="text" name="phonenum"
+				class="form-control" value="{$info['phonenum']}"
+				placeholder="请输入联系电话">
+				</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>出发城市</label> <br>
+
+			<div class="col-md-2">
+				<!-- 		<input type="text" name="start_city" class="form-control "
+					placeholder="请输入出发城市"> -->
+				<select name="start_city" id="dropStartCity" class="form-control">
+					<option value="0"<if condition="($info['start_city'] eq 0)">
+						selected="selected" </if> >郑州
+					</option>
+					<option value="1"<if condition="($info['start_city'] eq 1)">
+						selected="selected" </if> >郑州机场
+					</option>
+					<option value="2"<if condition="($info['start_city'] eq 2)">
+						selected="selected" </if> >洛阳
+					</option>
+					<option value="3"<if condition="($info['start_city'] eq 3)">
+						selected="selected" </if> >洛阳机场
+					</option>
+					<option value="4"<if condition="($info['start_city'] eq 4)">
+						selected="selected" </if> >待定
+					</option>
+				</select>
+			</div>
+			<div class="col-md-4">
+				<input type="text" name="start_addr" class="form-control"
+					value="{$info['start_addr']}" placeholder="请输入详细地址">
+			</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>终点城市</label><br />
+			<div class="col-md-2">
+				<!-- 				<input type="text" name="end_city" class="form-control"
+					value="{$info['end_city']}" placeholder="请输入终点城市"> -->
+				<select name="end_city" id="dropEndCity" class="form-control">
+					<option value="0"<if condition="($info['end_city'] eq 0)">
+						selected="selected" </if> >郑州
+					</option>
+					<option value="1"<if condition="($info['end_city'] eq 1)">
+						selected="selected" </if> >郑州机场
+					</option>
+					<option value="2"<if condition="($info['end_city'] eq 2)">
+						selected="selected" </if> >洛阳
+					</option>
+					<option value="3"<if condition="($info['end_city'] eq 3)">
+						selected="selected" </if> >洛阳机场
+					</option>
+					<option value="4"<if condition="($info['end_city'] eq 4)">
+						selected="selected" </if> >待定
+					</option>
+				</select>
+			</div>
+			<div class="col-md-4">
+				<input type="text" name="end_addr" class="form-control"
+					value="{$info['end_addr']}" placeholder="请输入详细地址">
+			</div>
+		</div>
+		
+		<div class="form-group col-md-2">
+			<label>人数</label><br>
+			<div class="col-md-12">
+			 <input type="text" name="pnum" class="form-control"
+				value="{$info['pnum']}" placeholder="请输入人数">
+			</div>
+		</div>
+		<div class="form-group col-md-10">
+			<label>状态</label> <br>
+			<div class="col-md-4">
+			<select name="state" id="dropState"
+				class="form-control">
+				<option value="0"<if
+						condition="($info['state'] eq 0)"> selected="selected" </if> >预约
+				</option>
+				<option value="1"<if
+						condition="($info['state'] eq 1)"> selected="selected" </if> >进行中
+				</option>
+				<option value="2"<if
+						condition="($info['state'] eq 2)"> selected="selected" </if> >完成
+				</option>
+				<option value="3"<if
+						condition="($info['state'] eq 3)"> selected="selected" </if> >取消
+				</option>
+				<option value="4"<if
+						condition="($info['state'] eq 4)"> selected="selected" </if> >待定
+				</option>
+			</select>
+			</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>预约时间</label>
+			<br>
+			<div class="col-md-6">
+			<div class="input-group date form_datetime col-md-12" 
+				data-date="{:date('Y-m-d H:i:s')}"
+				data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+				<input class="form-control" size="16" name="book_time" style="margin-left:10dp;" type="text" value="{$info['book_time']}" readonly>
+				<span class="input-group-addon"><span
+					class="glyphicon glyphicon-remove"></span></span> <span
+					class="input-group-addon"><span
+					class="glyphicon glyphicon-th"></span></span>
+			</div>
+			</div>
+		</div>
+		<div class="form-group  col-md-12">
+			<label>信息来源</label><br/>
+			<div class="col-md-6">
+			 <input type="text" name="info_from"
+				class="form-control" value="{$info['info_from']}"
+				placeholder="请输入信息来源">
+				</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>司机</label> <br/>
+			<div class="col-md-6">
+			<input type="text" name="driver"
+				class="form-control" value="{$info['driver']}" placeholder="请输入司机">
+			</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>备注</label><br/>
+		<div class="col-md-6">
+			 <input type="text" name="remark"
+				class="form-control" value="{$info['remark']}" placeholder="请输入备注">
+		</div>
+		</div>
+		
+		<!--  <div class="form-group">
+            <label>权限</label>
+            <select name="statue" id="DropDownTimezone" class="form-control">
+              <option value="0" 
+              <if condition="($admin['statue'] eq 0)"> selected="selected" </if> 
+              >超级管理员级</option>
+              <option value="1"
+               <if condition="($admin['statue'] eq 1)"> selected="selected" </if> 
+               >管理员级</option>
+              <option value="2"
+               <if condition="($admin['statue'] eq 2)"> selected="selected" </if> 
+               >一般管理</option>
+              <option value="3"
+               <if condition="($admin['statue'] eq 3)"> selected="selected" </if> 
+               >查看管理级</option>
+              <option value="4"
+               <if condition="($admin['statue'] eq 4)"> selected="selected" </if> 
+               >无权限级</option>
+            </select>
+          </div> -->
+		<div class="btn-toolbar list-toolbar">
+			<button type="submit" class="btn btn-primary">
+				<i class="fa fa-save"></i> 保存
+			</button>
+			<button type="reset" class="btn btn-danger">
+				<i class="fa fa-reset"></i> 重置
+			</button>
+		</div>
+	</form>
+</div>

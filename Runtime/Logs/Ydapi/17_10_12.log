@@ -1,0 +1,431 @@
+[ 2017-10-12T10:18:42+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-10-12T10:18:48+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-10-12T10:18:58+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-12T10:26:01+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-10-12T10:53:06+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2017-10-12T10:53:20+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-10-12T10:57:41+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-10-12T15:45:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 132 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 147 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 155 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` IN ('0','1') AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0116s ]
+
+[ 2017-10-12T15:45:48+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2017-10-12T16:14:35+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column '__ORDERLIST__.id' in 'field list'
+ [ SQL语句 ] : SELECT __ORDERLIST__.id as oid FROM `yd_orderlist` LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column '__ORDERLIST__.id' in 'field list'
+ [ SQL语句 ] : SELECT __ORDERLIST__.id as oid FROM `yd_orderlist` LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:15:54+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT list.id as oid FROM yd_orderlist as list LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT list.id as oid FROM yd_orderlist as list LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:16:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.' at line 1
+ [ SQL语句 ] : SELECT list.id as oid FROM yd_orderlist as list LEFT JOIN yd_orderline as on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.' at line 1
+ [ SQL语句 ] : SELECT list.id as oid FROM yd_orderlist as list LEFT JOIN yd_orderline as on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:18:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0299s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT yd_orderlist.id as oid FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT yd_orderlist.id as oid FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:20:22+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:20:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0016s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:20:34+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:20:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'yd_orderline.oid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as LINE on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'yd_orderline.oid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline as LINE on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:21:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_orderlist` LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2017-10-12T16:21:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+ERR: 1054:Unknown column 'yd_orderlist.id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'yd_orderlist.id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE yd_orderlist.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:22:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'yd_orderlist.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'yd_orderlist.id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on yd_orderlist.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:22:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'yd_orderlist.did' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'yd_orderlist.did' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on yd_orderlist.did = yd_user_info.id LEFT JOIN yd_line on yd_orderlist.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:23:00+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-10-12T16:23:45+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SELECT list.id as oid FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2017-10-12T16:32:06+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-10-12T16:32:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'list.id' in 'on clause'
+ [ SQL语句 ] : SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list,yd_orderline as oline LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'list.id' in 'on clause'
+ [ SQL语句 ] : SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list,yd_orderline as oline LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:33:35+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0004s ]
+SQL: SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list LEFT JOIN yd_orderline  on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-12T16:33:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'yd_orderline.oid' in 'on clause'
+ [ SQL语句 ] : SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list LEFT JOIN yd_orderline as oline on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+ERR: 1054:Unknown column 'yd_orderline.oid' in 'on clause'
+ [ SQL语句 ] : SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list LEFT JOIN yd_orderline as oline on list.id = yd_orderline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1  
+
+[ 2017-10-12T16:34:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam FROM yd_orderlist as list LEFT JOIN yd_orderline as oline on list.id = oline.oid LEFT JOIN yd_user_info on list.did = yd_user_info.id LEFT JOIN yd_line on list.line = yd_line.name  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2017-10-12T16:39:28+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam,oline.route as route,oline.gettime as gettime,oline.arrivetime as arrivetime,user.name as uname,line.name as linename FROM yd_orderlist as list LEFT JOIN yd_orderline as oline on list.id = oline.oid LEFT JOIN yd_user_info as user on list.did = user.id LEFT JOIN yd_line as line on list.line = line.id  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0006s ]
+

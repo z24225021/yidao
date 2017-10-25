@@ -1,0 +1,18 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Lib\Alidayu\SendSMS;
+class SendmsgController extends Controller {
+    
+    public function index(){
+        layout(false);
+        $this->sendSMS();
+    }
+    
+    protected function sendSMS(){
+        $alidayu = new SendSMS();
+        $result = $alidayu->send($recNum='18037351685', $smsParam='{"number":"4321"}', $smsTemplateCode="SMS_75235001", $smsFreeSignName=唯一客网站);
+        var_dump($result);
+    }
+    
+}

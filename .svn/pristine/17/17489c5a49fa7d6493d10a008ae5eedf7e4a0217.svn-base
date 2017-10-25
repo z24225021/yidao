@@ -1,0 +1,24 @@
+[ 2016-12-23T20:57:31+08:00 ] 127.0.0.1 /yidao/index.php/Index/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-23T20:58:28+08:00 ] 127.0.0.1 /yidao/index.php/Index/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-23T20:58:31+08:00 ] 127.0.0.1 /yidao/index.php/yidao/index.php/Home/Index/login.cc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Yidao
+
+[ 2016-12-23T20:59:00+08:00 ] 127.0.0.1 /yidao/index.php/yidao/index.php/Home/Index/login.cc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Yidao
+

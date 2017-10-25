@@ -1,0 +1,42 @@
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary"><a href="{:U('aadd')}"><i class="fa fa-plus"></i>添加管理员</a></button>
+    <button class="btn btn-default">导入</button>
+    <button class="btn btn-default">导出</button>
+</div>
+<div style="height:600px">
+<table class="table">
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>用户名</th>
+      <th>密码</th>
+      <th>手机号</th>
+      <th>email</th>
+      <th>权限</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+  <volist name="alist" id="vo" offset="0" length='10' empty="暂时没有数据">
+      <tr>
+      <td>{$i}</td>
+      <td>{$vo.username}</td>
+      <td>{$vo.tpassword}</td>
+      <td>{$vo.phone}</td>
+      <td>{$vo.email}</td>
+      <td>{$vo['name']}</td>
+      <td>
+          <a href="{:U('aedit',array('uid'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+         <!--  <a onclick="myFunction()" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a> -->
+         <a href="{:U('adelete',array('uid'=>$vo['id']))}" onclick="return del()" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+  </volist>
+    
+  </tbody>
+</table>
+</div>
+<div class="view_center">
+	<div class="pagination" >{$page}</div>
+</div>
+

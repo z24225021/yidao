@@ -1,0 +1,238 @@
+[ 2017-04-12T09:33:09+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-04-12T09:33:09+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-12T09:33:10+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=9 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+
+[ 2017-04-12T09:33:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/addMenu?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yd_type` ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 123 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 131 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 141 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 152 行.
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-12T09:33:13+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=9 ) ORDER BY id,cdate asc  [ RunTime:0.0002s ]
+
+[ 2017-04-12T09:33:27+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/addMenu?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_type` (`pid`,`name`,`order`,`url`) VALUES ('4','问问','0','') [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-04-12T09:33:30+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MenuModel::getMenu(), called in F:\AppServ\www\yidao\Application\Admin\Controller\MenuController.class.php on line 18 and defined F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 29 行.
+NOTIC: [8] Undefined variable: param F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 30 行.
+SQL: SELECT * FROM `yd_type` ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-04-12T09:33:30+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0007s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-12T09:33:40+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/delete/mid/22.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0008s ]
+ERR: Think\Model:deleteMenu方法不存在！
+
+[ 2017-04-12T19:12:01+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-04-12T19:12:01+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::delete() should be compatible with Think\Model::delete($options = Array) F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+

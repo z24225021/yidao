@@ -1,0 +1,132 @@
+[ 2017-10-09T10:01:44+08:00 ] 127.0.0.1 /yidao/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036579s ]
+
+[ 2017-10-09T10:01:46+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004453s ]
+
+[ 2017-10-09T10:01:46+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Tool/verify.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-10-09T10:01:51+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-10-09T10:01:51+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Tool/verify.cc?0.10443433951838821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-10-09T10:01:54+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Tool/verify.cc?0.32289572715599335
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-10-09T10:01:58+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Login/login.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `yd_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yd_admin` WHERE `username` = 'miao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_role` [ RunTime:0.0003s ]
+SQL: SELECT id as roleid,name as rolename,`rules` FROM `yd_role` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yd_role` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`rules` FROM `yd_role` ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2017-10-09T10:01:58+08:00 ] 127.0.0.1 /yidao/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yd_type` WHERE `pid` = 2 AND `id` IN ('4','5','6','59','67') ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\InitController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-10-09T10:01:59+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yd_type` WHERE `pid` = 2 AND `id` IN ('4','5','6','59','67') ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yd_type` WHERE `pid` = 2 AND `id` IN ('4','5','6','59','67') ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+

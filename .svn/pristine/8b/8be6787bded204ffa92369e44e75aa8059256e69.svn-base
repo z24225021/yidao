@@ -1,0 +1,60 @@
+<div class="btn-toolbar list-toolbar">
+    <div class="btn btn-primary">{$title}</div>
+</div>
+<div class="tab-pane active in" id="home">
+      <form id="tab" action="__SELF__" method="post">
+        <div class="form-group">
+        <label>用户名</label>
+        <input type="hidden" name="id" value="{$admin['id']}">
+        <input type="hidden" name="cdate" value="{$admin['cdate']}">
+          <input type="text" name="username" class="form-control" value="{$admin['username']}" placeholder="请输入用户"> 
+        </div>
+        <div class="form-group">
+        <label>密码</label>
+          <input type="password" name="password"  class="form-control" value="{$admin['tpassword']}"  placeholder="请输入密码">
+        </div>
+        <empty  name="admin">
+	        <div class="form-group">
+	        <label>确认密码</label>
+	          <input type="password" name="repassword" class="form-control"  placeholder="请再次输入密码">
+	        </div>
+        </empty>
+        <div class="form-group">
+        <label>手机号</label>
+          <input type="text" name="phone" class="form-control" value="{$admin['phone']}"  placeholder="请输入手机号">
+        </div>
+        <div class="form-group">
+        <label>Email</label>
+          <input type="text" name="email" class="form-control"  value="{$admin['email']}" placeholder="请输入邮箱">
+        </div>
+        <div class="form-group">
+            <label>权限</label>
+            <select name="statue" id="DropDownTimezone" class="form-control">
+              <option value="0" 
+              <if condition="($admin['statue'] eq 0)"> selected="selected" </if> 
+              >超级管理员级</option>
+              <option value="1"
+               <if condition="($admin['statue'] eq 1)"> selected="selected" </if> 
+               >管理员级</option>
+              <option value="2"
+               <if condition="($admin['statue'] eq 2)"> selected="selected" </if> 
+               >一般管理</option>
+              <option value="3"
+               <if condition="($admin['statue'] eq 3)"> selected="selected" </if> 
+               >查看管理级</option>
+              <option value="4"
+               <if condition="($admin['statue'] eq 4)"> selected="selected" </if> 
+               >无权限级</option>
+            </select>
+          </div>
+	    <div class="btn-toolbar list-toolbar">
+	      <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存</button>
+	      <button type="reset" class="btn btn-danger"><i class="fa fa-reset"></i> 重置</button>
+	    </div>
+        </form>
+      </div>
+      
+      
+      
+      
+      

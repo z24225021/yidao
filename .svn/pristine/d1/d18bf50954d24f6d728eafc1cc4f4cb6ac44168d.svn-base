@@ -1,0 +1,130 @@
+
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary"><i class="fa fa-plus"></i>添加用户</button>
+    <button class="btn btn-default">导入</button>
+    <button class="btn btn-default">导出</button> 
+</div>
+<table class="table" style="height: 600px">
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+      <th style="width: 3.5em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Tompson</td>
+      <td>the_mark7</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ashley</td>
+      <td>Jacobs</td>
+      <td>ash11927</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Audrey</td>
+      <td>Ann</td>
+      <td>audann84</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>John</td>
+      <td>Robinson</td>
+      <td>jr5527</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Aaron</td>
+      <td>Butler</td>
+      <td>aaron_butler</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Chris</td>
+      <td>Albert</td>
+      <td>cab79</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Chris</td>
+      <td>Albert</td>
+      <td>cab79</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Chris</td>
+      <td>Albert</td>
+      <td>cab79</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Chris</td>
+      <td>Albert</td>
+      <td>cab79</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Chris</td>
+      <td>Albert</td>
+      <td>cab79</td>
+      <td>
+          <a href="user.html"><i class="fa fa-pencil"></i></a>
+          <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<ul class="pagination">
+  <li><a href="#">&laquo;</a></li>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>

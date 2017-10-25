@@ -1,0 +1,367 @@
+<style type="text/css">
+.window-container .window-head .toolbar {
+    display: flex;
+    height: 55px;
+    padding: 0 .8em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+ .title{
+ 	color: #333;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: 700;
+ }
+a, a:hover {
+    text-decoration: none;
+	color:#333;
+}
+li {list-style-type:none;}
+.left{
+	width:20%;
+	background-color: #ddd;
+	margin-right:15px;
+	padding-right:15px;
+	float:left;
+	
+}
+#main{
+	width:75%;
+	float:right;
+	margin-bottom: 50px;	
+}
+
+.window{
+	width:75%;
+	margin:0 auto;
+}
+table{
+	width: 70%;
+	font-family: "Microsoft Yahei", 微软雅黑, Arial;
+}
+table th {
+    height: auto;
+    background-color: #666;
+    color: #fff;
+    text-align: left;
+}
+dd{
+	color:#666;
+	font-size: 1.5em;
+}
+   
+ </style>
+<div class="window">
+	<div class="window-head">
+		<div class="toolbar">
+			<a class="title" href="{:U('Ydapi/Index/index')}">一道约车完全开发手册</a>
+			<div class="extra"></div>
+		</div>
+	</div>
+	<div>
+		<div style="height:2px;background-color: #136ec2;">
+		</div>
+	</div>
+    <div class="container">
+        <div class="left">
+            <ul>
+               <li><a href="#dz">地址</a></li>
+               <li><a>登录模块</a></li>
+               <ul>
+               <li class=""><a href="#dl">登录</a></li>
+               <li class=""><a href="#dx">短信验证码</a></li>
+               <li class=""><a href="#zc">注册</a></li>
+               </ul>
+               <li><a href="#yh">用户模块</a></li>
+               <ul>
+               <li class=""><a href="#yhxx">用户信息</a></li>
+               </ul>
+            </ul>
+        </div>
+	    <div id="main">
+	    	<div id="dz">
+	    	 	<dd>请求地址：</dd>
+	    		<table border="1" cellpadding="0" cellspacing="0" >
+	            <tbody >
+	            	<tr>
+	                    <th width="30%">环境</th>
+	                    <th width="60%">HTTP请求地址</th>
+	                    <th>API接口名称</th>
+	                </tr>
+	                <tr>
+	                    <td>正式环境</td>
+	                    <td>http://</td>
+	                    <td>method</td>
+	                </tr>
+	                <tr>
+	                    <td>沙箱环境</td>
+	                    <td>http://192.168.4.111/yidao/index.php/ydapi/index/</td>
+	                    <td>method</td>
+	                </tr>
+	            </tbody>
+	       	 	</table>
+	    	</div><br>
+			<div id="m1">
+		        <dd id="dl">登录：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>login</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>username</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户名</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<d1>返回：</d1><br>
+		       	<pre>
+成功
+{
+    "code": 200,
+    "msg": "登陆成功",
+    "info": {
+        "id": "2",
+        "username": "11",
+        "password": "6512bd43d9caa6e02c990b0a82652dca",
+        "update_time": "0000-00-00 00:00:00",
+        "create_time": "0000-00-00 00:00:00",
+        "email": "11"
+    }
+}
+失败：
+{
+  "code": 0,
+  "msg": "用户名或密码不正确"
+}
+				</pre>
+		        <dd id="dx">短信验证码：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>yanzheng</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<br>
+		        <dd id="zc">注册：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>register</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            <tr>
+		                <td>smsverify</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>短信验证码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+  成功：
+{
+    "code": 200,
+    "msg": "注册成功",
+    "info": {
+        "uid": "yh1803735122",
+        "phonenum": "1803735122"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "手机号已被注册"
+}
+验证码错误：
+{
+    "code": 0,
+    "msg": "短信验证码不正确"
+}
+		        </pre>
+		       	<br>
+		        <dd id="zc">修改密码：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>forgetpwd</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            <tr>
+		                <td>smsverify</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>短信验证码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+  成功：
+{
+    "code": 200,
+    "msg": "密码修改成功",
+    "info": {
+        "uid": "yh1803735122",
+        "phonenum": "1803735122"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "手机号未注册"
+}
+验证码错误：
+{
+    "code": 0,
+    "msg": "短信验证码不正确"
+}
+		        </pre>
+			</div>
+			<div id="yh">
+				<dd id="yhxx">用户信息：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>userinfo</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>uid</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户id</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+		        
+		        
+		        </pre>
+			</div>
+       
+		</div>
+    </div>
+</div>

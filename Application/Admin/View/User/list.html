@@ -1,0 +1,86 @@
+
+<div class="btn-toolbar list-toolbar">
+    <button class="btn btn-primary"><a href="{:U('uadd')}"><i class="fa fa-plus"></i>添加用户</a></button>
+    <button class="btn btn-default">导入</button>
+    <button class="btn btn-default">导出</button> 
+</div>
+<div style="height:600px">
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>姓名</th>
+      <th>手机号</th>
+      <th>车队</th>
+  <!--     <th>身份证号</th>
+      <th>身份证图</th>
+      <th>驾驶证图</th>
+      <th>行驶证图</th> -->
+      <th>类别</th>
+      <th>是否认证</th>
+      <th>是否禁用</th>
+      <th style="width: 6em;">操作</th>
+    </tr>
+  </thead>
+  <tbody>
+    <volist name="ulist" id="vo" offset="0" length='10' key="k" empty="暂时没有数据">
+      <tr>
+      <td>{$k}</td>
+      <td>
+      <if condition="$vo.name neq null">
+      {$vo.name}
+      <else/>
+      {$vo.phonenum}
+      </if>
+      </td>
+      <td>{$vo.phonenum}</td>
+      <td>
+      	<volist name="teams" id="team">
+      		<if condition="($vo['carteam'] eq $team['id'])">{$team['name']}</if> 
+		</volist>
+      </td>
+      <!-- <td>{$vo.cardid}</td>
+      <td>{$vo.cardfontpic}</td>
+      <td>{$vo.drivercard}</td>
+      <td>{$vo.driverlicense}</td> -->
+      <td>
+      	  <if condition="($vo['type'] eq 0)">乘客</if> 
+      	  <if condition="($vo['type'] eq 1)">顺风车</if> 
+		  <if condition="($vo['type'] eq 2)">专车司机</if> 
+		  <if condition="($vo['type'] eq 3)">专线车司机</if> 
+		  <if condition="($vo['type'] eq 4)">调度</if>
+      </td>
+      <td>
+      	  <if condition="($vo['iscert'] eq 0)">未认证</if> 
+      	  <if condition="($vo['iscert'] eq 1)">司机认证中</if> 
+		  <if condition="($vo['iscert'] eq 2)">司机认证成功</if> 
+		  <if condition="($vo['iscert'] eq 3)">用户认证成功</if> 
+		  <if condition="($vo['iscert'] eq 4)">用户认证中</if>
+      </td>
+      <td>
+      	  <if condition="($vo['able'] eq 0)">禁用</if> 
+		  <if condition="($vo['able'] eq 1)">可用</if>
+      </td>
+      <td>
+          <a href="{:U('uedit',array('uid'=>$vo['id']))}"><i class="fa fa-pencil"></i></a>
+          <a href="{:U('udetail',array('uid'=>$vo['id']))}"><i class="glyphicon glyphicon-zoom-in"></i></a>
+          <a href="{:U('ucert',array('uid'=>$vo['id'],'usertype'=>$vo['type']))}"  onclick="return cert()" role="button" ><i class="glyphicon glyphicon-copyright-mark"></i></a>
+          <a href="{:U('udelete',array('uid'=>$vo['id']))}" onclick="return del()" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+      </td>
+    </tr>
+  </volist>
+    
+  </tbody>
+</table>
+</div>
+<div class="view_center">
+	<div class="pagination" >{$page}</div>
+</div>
+<script type="text/javascript">
+
+
+
+</script>
+
+

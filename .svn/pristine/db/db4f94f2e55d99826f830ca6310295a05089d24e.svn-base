@@ -1,0 +1,177 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>河南一道科技有限公司</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+
+
+<link rel="stylesheet" href="/yidao/Public/static/css/animate.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/icomoon.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/flexslider.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/style.css">
+
+<link href="/yidao/Public/bootstrapall/css/docs.css" rel="stylesheet">
+<link href="/yidao/Public/bootstrapall/css/onethink.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="/yidao/Public/Admin/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/yidao/Public/Admin/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/yidao/Public/Admin/lib/bootstrap/css/datetimepicker.css">
+    <link rel="stylesheet" href="/yidao/Public/Admin/lib/font-awesome/css/font-awesome.css">
+
+
+	<script type="text/javascript" src="/yidao/Public/bootstrapall/js/jquery-3.1.0.min.js"></script> 
+	<script src="/yidao/Public/Admin/lib/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="/yidao/Public/Admin/lib/bootstrap/js/bootstrap-datetimepicker.zh-CN.js"></script>
+	<script type="text/javascript" src="/yidao/Public/bootstrapall/js/bootstrap.js"></script>
+	<script src="/yidao/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>
+<style type="text/css">
+h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway","微软雅黑", Arial, sans-serif,"黑体";
+}
+
+.lia{
+	padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border: 2px solid #27e1ce;
+    color: #27E1CE;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+	transition: 0.2s;
+}
+
+</style>
+</head>
+<body >
+		<header id="fh5co-header" role="banner">
+			<div class="container">
+				<div class="header-inner">
+					<h1>
+						<a href="<?php echo U('Index/index');?>">一道科技</a>
+					</h1>
+					<nav role="navigation">
+						<ul>
+							<?php if(S('user') == null): ?><li><a href="<?php echo U('Index/index');?>">首页</a></li>
+								<li><a href="<?php echo U('Index/about');?>">公司简介</a></li>
+								<li><a href="<?php echo U('Index/news');?>">公司动态</a></li>
+								<li><a href="<?php echo U('Index/contact');?>">联系我们</a></li>
+								<li><a class="lia" style="color:#27E1CE;" href="<?php echo U('Index/login');?>">会员登录</a></li>
+							<?php else: ?> 
+								<li><a href="<?php echo U('Home/ycar');?>">我要约车</a></li>
+								<li><a href="<?php echo U('Home/test');?>">测试</a></li>
+	                            <li ><a href="<?php echo U('Home/selfCenter');?>" >我的订单</a></li>
+								<div class="dropdown pull-right">  
+									<li ><a href="#" class="lia" style="color:#27E1CE;" data-toggle="dropdown" ><?php echo S('user')['username'];?> <b class="caret"></b></a>
+										<ul class="dropdown-menu " style="min-width:120px" >
+	                                		<li ><a href="<?php echo U('Home/selfCenter');?>" >个人中心</a></li>
+	                                		<li ><a href="<?php echo U('Home/logout');?>" >注销登录</a></li>
+	                            		</ul>
+									</li>
+								</div><?php endif; ?>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+ <aside id="fh5co-hero" class="js-fullheight">
+	<div class="flexslider js-fullheight">
+			<ul class="slides">
+		
+		   	<li style="background-image: url(/yidao/Public/static/images/02.jpg);">
+		   		<div class="container">
+		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+		   				<div class="slider-text-inner">
+		   					<h2>一道陪你走过灿烂的旅途</h2>
+		   					<br/>
+		   					<p><a href="#" class="btn btn-primary btn-lg">陪伴</a></p>
+		   				</div>
+		   			</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	 </div>
+</aside>
+
+
+<?php if(is_array($news)): $k = 0; $__LIST__ = array_slice($news,0,10,true);if( count($__LIST__)==0 ) : echo "暂时没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><div class="fh5co-team">
+	</if> 
+		<div class="container" >
+			<div class="col-md-2">
+				<a href="premium-blog-item.html" class="thumb"><img
+					src="/yidao/Public/static/images/image_1.jpg"
+					class="img-responsive hidden-xs"></a>
+			</div>
+			<div class="col-md-10">
+				<div class="post-summary">
+					<h4 style="margin: 0px;">
+						<a href="premium-blog-item.html"><?php echo ($vo['title']); ?></a>
+					</h4>
+					<p class="text-sm" style="margin: 0px;"><?php echo ($vo['creat_time']); ?></p>
+					<p style="margin: 0px;">
+					一道公司前期主要从事汽车租赁服务，公司拥有5座轿车和商务车160多台，为个人、企事业单位、公务员提供用车服务。。。。。。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div><?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
+
+
+
+
+	
+	<script src="/yidao/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>
+	<script src="/yidao/Public/yidao/js/mydate.js"></script>
+	<footer id="fh5co-footer" class="">
+	
+		<div class="container">
+			<div class="col-md-6  col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>关于我们</h3>
+				<ul class="float">
+					<li><a href="#">公司地址：洛阳市西工区升龙广场a座11号楼3单元1601室</a></li>
+					<li><a href="#">联系电话：037968600800</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<ul class="float">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+
+			</div>
+			<div class="col-md-6  col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>产品服务</h3>
+				<ul class="float">
+					<li><a href="#">软件应用开发服务</a></li>
+					<li><a href="#">网络约车服务</a></li>
+					
+				</ul>
+				<ul class="float">
+					<li><a href="#">汽车租赁服务</a></li>
+					<li><a href="#">拼车服务</a></li>
+				<!-- 	<li><a href="#">Free HTML5 &amp; CSS3 Template</a></li>
+					<li><a href="#">HandCrafted Templates</a></li> -->
+				</ul>
+
+			</div>
+
+			
+			<div class="col-md-12 fh5co-copyright text-center">
+				<p style="color: white;">&copy; 2016 河南一道科技公司. All Rights Reserved. <span>Designed with  河南一道科技工程部</span></p>	
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

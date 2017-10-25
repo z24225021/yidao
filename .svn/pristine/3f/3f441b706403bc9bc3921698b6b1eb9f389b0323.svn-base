@@ -1,0 +1,36 @@
+[ 2017-01-03T09:23:49+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Public
+
+[ 2017-01-03T16:03:23+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Public
+
+[ 2017-01-03T16:03:38+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:Public
+
+[ 2017-01-03T16:04:38+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+ERR: 无法加载模块:Public
+
+[ 2017-01-03T16:07:19+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Public
+
+[ 2017-01-03T17:17:21+08:00 ] 127.0.0.1 /yidao/Public/Admin/static/images/icon24_login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,129 @@
+<header class="jumbotron subhead" id="overview">
+	<div class="container">
+		<h2 style="font-family: '黑体';color:white;">个人中心</h2>
+		<p>
+			<span><span class="pull-left"><span> </span> </span>
+		</p>
+	</div>
+</header>
+
+<div id="main-container" class="container">
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab">个人资料</a></li>
+  <li><a href="#pwd" data-toggle="tab">修改密码</a></li>
+  <li><a href="#identity" data-toggle="tab">身份认真</a></li>
+</ul>
+    <div class="row" >
+		<input type="hidden" id="uid" name="uid" class="form-control" value = "{:S('user')['id']}">
+	<div class="col-md-7">
+		<div id="myTabContent" class="tab-content">
+				<div class="tab-pane active in" id="home">
+					<form id="tab_home">
+						<div class="form-group">
+							<label>用户名</label> 
+							<input type="text" class="form-control" name="username" value="" >
+						</div>
+						<div class="form-group">
+							<label>性别</label> <input type="text" value="" name="sex" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>真实姓名</label> <input type="text" value="" name="truename" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>手机号</label> <input type="text" name="phone" value="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Email</label> <input type="text" value="jsmith@yourcompany.com" name="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>地址</label>
+							<textarea rows="3" name="address" class="form-control">洛阳市西工区健康西路西100米升龙广场a座11号楼3单元1601室</textarea>
+						</div>
+						<div class="btn-toolbar list-toolbar">
+							<button class="btn btn-primary">
+								<i class="fa fa-save"></i> 保存
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="pwd">
+					<form id="tab_pwd" action="{:U('Home/changePwd')}" method="post">
+						<div class="form-group">
+				            <label>原密码</label>
+				            <input type="password" id="password" name="password" class="form-control">
+				        </div>
+						<div class="form-group">
+				            <label>新密码</label>
+				            <input type="password" id="newpass" name="newpass" class="form-control">
+				        </div>
+						<div class="form-group">
+				            <label>确认密码</label>
+				            <input type="password" id="repass" name="repass" class="form-control">
+				        </div>
+				        <div>
+				            <button type="button" id="pwdsub" class="btn btn-primary">保存</button>
+			          		<div id="repwd" class="controls Validform_checktip text-warning"></div>
+			          	</div>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="identity">
+					<form id="tab_identity">
+						<div class="form-group">
+							<label>用户名</label> 
+							<input type="text" value="jsmith" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>地址</label>
+							<textarea value="Smith" rows="3" class="form-control">洛阳市西工区健康西路西100米升龙广场a座11号楼3单元1601室</textarea>
+						</div>
+						<div class="btn-toolbar list-toolbar">
+							<button class="btn btn-primary">
+								<i class="fa fa-save"></i> 保存
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+	</div>
+	
+	</div>
+</div>
+<script>
+
+
+$(function(){  
+    $('#pwdsub').click(function(){  
+    	var pass = $("#password").val();
+    	var npass = $("#newpass").val();
+    	var rpass = $("#repass").val();
+    	if(pass.trim()==""){
+    		alert("原密码为空！");
+    		return;
+    	}
+    	if(""==npass.trim()){
+    		alert("新密码为空！");
+    		return;
+    	}
+    	if(npass==rpass){
+        	var data = {
+        		uid:$("#uid").val(),
+                pass:pass,
+                npass:npass	
+        	};
+        	var url = $("#tab_pwd").attr("action");
+        		  $.post(url, data,
+        		  function(data){
+        			  alert(data.msg);
+        			  window.location.href = data.url; 
+        		  }); 
+    	}else{
+    		alert("两次输入不同！");
+    		return;
+    	}
+    }); 
+
+});  
+
+
+</script>

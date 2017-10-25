@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>欢迎您登录一道科技</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/css/login.css" media="all">
+       	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/css/blue_color.css" media="all">
+    </head>
+    <body id="login-page">
+        <div id="main-content">
+
+            <!-- 主体 -->
+            <div class="login-body">
+                <div class="login-main pr">
+                    <form action="{:U('upload')}" method="post" enctype="multipart/form-data" >
+                        <h3 class="welcome">一道科技管理平台</h3>
+                        <div id="itemBox" class="item-box">
+                            <div class="item">
+                                <i class="icon-login-user"></i>
+                                <input type="file" name="file" placeholder="请选择文件" autocomplete="off" />
+                            </div>
+                            <span class="placeholder_copy placeholder_un">请选择文件</span>
+                        </div>
+                        <div class="login_btn_panel">
+                            <button class="login-btn" type="submit">
+                                <span class="on">提交</span>
+                            </button>
+                            <div class="check-tips"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

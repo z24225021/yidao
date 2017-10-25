@@ -1,0 +1,305 @@
+[ 2017-04-13T10:11:34+08:00 ] 127.0.0.1 /yidao/index.php/?pid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-04-13T11:24:06+08:00 ] 127.0.0.1 /yidao/index.php/?pid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-04-13T11:24:17+08:00 ] 127.0.0.1 /yidao/index.php/?pid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-04-13T11:24:23+08:00 ] 127.0.0.1 /yidao/index.php/?pid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-04-13T11:28:46+08:00 ] 127.0.0.1 /yidao/index.php/?pid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-04-13T11:29:35+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/verify.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-04-13T11:29:39+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/verify.cc?0.1506514639744745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-04-13T11:29:40+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/verify.cc?0.8393351446623569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-04-13T13:01:20+08:00 ] 127.0.0.1 /yidao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-04-13T13:01:22+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/about.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-04-13T13:01:23+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/news.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `yd_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yd_news`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\cecb45903f8aa0e33f62e7ce7ef7b49f.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-04-13T13:01:25+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-04-13T13:01:25+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/images/slide_2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-04-13T13:01:29+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/contact.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\a873315f4d7930e02d8853d9439fbb36.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-04-13T13:01:29+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/verify.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-04-13T14:54:12+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/about.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\09ccd45952ce225a1a2986a81cc5705c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2017-04-13T14:54:12+08:00 ] 127.0.0.1 /yidao/index.php/Home/Index/news.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `yd_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yd_news`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\cecb45903f8aa0e33f62e7ce7ef7b49f.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+

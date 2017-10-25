@@ -1,0 +1,250 @@
+<div class="btn-toolbar list-toolbar">
+    <div class="btn btn-primary">{$title}</div>
+</div>
+<div class="tab-pane active in" id="home">
+      <form id="tab" action="__SELF__" method="post">
+        <div class="form-group">
+        <label>出发城市</label>
+          <input type="text" name="startcity" id="start"  class="form-control" value="{$line['startcity']}"  placeholder="请输入出发城市">
+        	<p id="serror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>区域选择<input type="button" class="areachoose" id="startid" value="选择出发城市区域" ></label>
+          <input type="text" name="startg" id="startg"  class="form-control" value="{$line['startg']}" readonly="readonly" >
+        	<p id="serror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>终点城市</label>
+          <input type="text" name="endcity" id="end" class="form-control" value="{$line['endcity']}"  placeholder="请输入终点城市">
+        	<p id="eerror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>区域选择<input type="button" class="areachoose" id="endid" value="选择终点城市区域" ></label>
+          <input type="text" name="endg" id="endg" class="form-control" value="{$line['endg']}"  readonly="readonly" >
+        	<p id="eerror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+        	<input type="hidden" name="id" value="{$line['id']}">
+        	<input type="hidden" name="uptime" value="{$line['uptime']}">
+       <!--  <label>线路</label><br>
+        	<div class="form-group">
+	        	<div class="col-md-4">
+		          	<input type="text" id="sname" class="form-control" value="{$line['startcity']}" readonly="readonly" >
+	        	</div>
+	        	<div class="col-md-1" style="text-align: center;">至</div>
+	        	<div class="col-md-4">
+		          	<input type="text" id="ename" class="form-control" value="{$line['endcity']}" readonly="readonly" > 
+	        	</div>
+        	</div><br> -->
+        </div>
+        <div class="form-group">
+	    <label>基本价</label>
+	        <input type="text" name="bprice" id="bprice" class="form-control" value="{$line['bprice']}"  placeholder="请输入基本价">
+	        	<p id="eerror" class="bg-danger"></p>
+	    </div>
+	    <div class="form-group">
+	    <label>超范围加价</label>
+	        <input type="text" name="addp" id="addp" class="form-control" value="{$line['addp']}"  placeholder="请输入加价">
+	        	<p id="eerror" class="bg-danger"></p>
+        </div>
+	    <div class="btn-toolbar list-toolbar">
+	      <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存</button>
+	      <button type="reset" class="btn btn-danger"><i class="fa fa-reset"></i> 重置</button>
+	    </div>
+        </form>
+</div>
+<!-- 
+
+地图
+
+ -->
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=2c4052cc5bbdc6f72929dda7cdc11531"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.10"></script>
+<div id="container" style="margin-top: 60px;display:none"></div>
+<div id="buttong" class="button-group" style="display:none;top:70px">
+    <input id="draw" type="button" class="button" value="绘制"/>
+    <input id="suredraw" type="button" class="button" value="确认"/>
+    <input id="overdraw" type="button" class="button" value="清除"/>
+    <input id="cancel" type="button" class="button" value="取消"/>
+	<div class="button-group" id="result" style="top:70px">
+	<div class="list-group" id="marklist"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	document.getElementById("search_header").style.display='none';
+    //初始化地图对象，加载地图
+    var areaname;
+    var centercity;
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        zoom: 13
+    });
+   
+    var path =[];
+    var i = 1;
+    var markers=[];
+    var j = 1;
+    var paths=[];
+	map.on('click',function(e){
+		//自定义标记
+		AMapUI.loadUI(['overlay/SimpleMarker'], function(SimpleMarker) {
+	      var marker = new SimpleMarker({
+	              iconLabel: i++,
+	              map: map,
+	              position: e.lnglat
+	        });
+		    markers.push(marker);
+	    });
+		var markerid='marker'+j+'-'+i;
+		var areaid = 'area-'+j
+	    if(i==1){
+	    	/* $('#result').append('<div class="list-group" id="'+areaid+'"></div>'); */
+        	$('#marklist').append('<a href="javascript:;" onclick="deleteMarkers(\''+areaid+'\')" class="list-group-item active glyphicon glyphicon-remove" style="padding:4px 10px;width:90px">area'+j+'</a>'); 
+        	$('#marklist').append('<button type="button" id="'+markerid+'" class="list-group-item" style="padding:4px 10px;width:90px">'+markerid+'</button>');
+        }else{
+        	$('#marklist').append('<button type="button" id="'+markerid+'" class="list-group-item" style="padding:4px 10px;width:90px">'+markerid+'</button>');
+        }
+	    path.push(e.lnglat);
+	});
+	var polygons=[];
+ 	AMap.event.addDomListener(document.getElementById('draw'), 'click', function() {
+	   var  polygon = new AMap.Polygon({
+	        map: map,
+	        path: path,
+	        strokeColor: '#'+Math.floor(Math.random()*0xffffff).toString(16),
+            strokeOpacity: 1,
+            strokeWeight: 3,
+            fillColor: "#f5deb3",
+            fillOpacity: 0.35
+	    });
+	    polygons.push(polygon);
+	    map.setFitView();
+	    path.push(path[0]);
+	    var pathstr=path.join("-");
+ 		paths.push("("+pathstr.replace(new RegExp(',','gm'),' ').replace(new RegExp('-','gm'),',')+")");
+ 		path=[];
+ 		i=1;
+ 		alert("绘制区域"+j+"成功！")
+ 		j++;
+	    
+/*         
+		alert('点是否在多边形内：' + polygon.contains(myMarker.getPosition())); 
+*/
+    }); 
+	
+ 	AMap.event.addDomListener(document.getElementById('overdraw'), 'click', function() {
+ 		map.remove(markers);
+ 		map.remove(polygons);
+ 		$("#marklist").empty();
+ 		i=1;
+ 		j=1;
+    }); 
+ 	AMap.event.addDomListener(document.getElementById('cancel'), 'click', function() {
+	    map.remove(markers);
+ 		map.remove(polygons);
+ 		$("#marklist").empty();
+		markers=[];
+		paths = [];
+ 		path=[];
+ 		i=1;
+ 		j=1;
+ 		$('#container').hide();
+	    $('#buttong').hide();
+    }); 
+ 	
+ 	AMap.event.addDomListener(document.getElementById('suredraw'), 'click', function() {
+ 		$('#container').hide();
+	    $('#buttong').hide(); 
+ 		var pathresult = paths.join(',');
+ 		var num=(pathresult.split(' ')).length-1;
+ 		if(0== num){
+ 			pathresult="POINT"+pathresult;
+ 		}else if(2== num){
+ 			pathresult="LINESTRING"+pathresult;
+ 		}else{
+ 			pathresult="POLYGON("+pathresult+")";
+ 		} 
+ 		map.remove(markers);
+ 		map.remove(polygons);
+ 		$("#marklist").empty();
+		$('#'+areaname).val(pathresult);
+		markers=[];
+		paths = [];
+ 		path=[];
+ 		i=1;
+ 		j=1;
+    }); 
+
+ 	
+
+$(function(){
+    $("input:button").click(function() {
+       var nclass =  $(this).attr("class");
+       var nid= $(this).attr('id');
+       if($.trim(nclass)==$.trim('areachoose')){
+	       $('#container').show();
+	       $('#buttong').show();
+	       switch(nid)
+	       {
+	       case 'startid':
+		       areaname="startg";
+		       if($('#start').val()!=""){
+		    	   centercity=$('#start').val();
+		    	   map.setCity(centercity);
+		       }else{
+		    	   map.setCity("洛阳市");
+		       }
+	         break;
+	       case 'endid':
+		       areaname="endg";
+		       if($('#end').val()!=""){
+		    	   centercity=$('#end').val();
+		    	   map.setCity(centercity);
+		       }else{
+		    	   map.setCity("洛阳市");
+		       }
+	         break;
+	       } 
+       }
+    });
+});
+/* function deleteMarkers(mid){
+	var nid = mid.substring(mid.indexOf('-')+1);
+	nid = nid - 1;
+	for(mk in markers[nid]){
+		alert(1);
+		mk.setMap(null);
+	}
+ 	$("#"+mid).remove();
+} */
+$(document).ready(function(){
+	  $("#start").focus(function(){
+		  $("#serror").text("");
+	  });
+	  $("#end").focus(function(){
+		  $("#eerror").text("");
+	  });
+	  $("#start").blur(function(){
+			if($("#start").val()==""){
+				$("#serror").text("请输入出发城市");
+			}else{
+				$("#sname").val($("#start").val());
+			}
+	  });
+	  $("#end").blur(function(){
+			if($("#end").val()==""){
+				$("#eerror").text("请输入终点城市");
+			}else{
+				$("#ename").val($("#end").val());
+			}
+	  });
+	});
+</script>
+      
+      
+      
+      
+      

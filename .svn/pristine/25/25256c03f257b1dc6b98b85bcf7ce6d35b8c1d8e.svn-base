@@ -1,0 +1,10 @@
+[ 2017-05-17T16:16:40+08:00 ] 127.0.0.1 /yidao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+ERR: 模板不存在:./Application/API/View/Layout/layout.html
+

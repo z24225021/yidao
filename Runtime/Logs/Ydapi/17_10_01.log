@@ -1,0 +1,739 @@
+[ 2017-10-01T00:04:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_orderlist` WHERE `uid` = 'dd18988888888' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-10-01T00:34:58+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-10-01T01:16:36+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:17:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:17:31+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:18:15+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0003s ]
+
+[ 2017-10-01T01:19:17+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:19:51+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:20:30+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:21:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:24:18+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE ( id=5 ) [ RunTime:0.0084s ]
+
+[ 2017-10-01T01:27:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE ( id=5 ) [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:28:19+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0005s ]
+
+[ 2017-10-01T01:28:20+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:28:20+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0005s ]
+
+[ 2017-10-01T01:28:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0007s ]
+
+[ 2017-10-01T01:28:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0002s ]
+
+[ 2017-10-01T01:28:22+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0003s ]
+
+[ 2017-10-01T01:29:15+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 72 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 80 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 85 行.
+SQL: UPDATE `yd_orderlist` SET `line`='4',`type`='2',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`='1',`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506333878' [ RunTime:0.1116s ]
+
+[ 2017-10-01T02:54:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0003s ]
+
+[ 2017-10-01T02:56:12+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0207s ]
+
+[ 2017-10-01T02:56:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0002s ]
+
+[ 2017-10-01T02:57:12+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0158s ]
+
+[ 2017-10-01T02:57:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0002s ]
+
+[ 2017-10-01T02:58:25+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0002s ]
+
+[ 2017-10-01T02:59:34+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2017-10-01T03:01:03+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0011s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+
+[ 2017-10-01T03:03:16+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:04:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:05:48+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0011s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:06:56+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php:378) F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-10-01T03:15:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0013s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+
+[ 2017-10-01T03:24:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+
+[ 2017-10-01T03:26:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php:377) F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-10-01T03:33:11+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0011s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php:377) F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-10-01T03:33:34+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0013s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:34:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:34:50+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:37:11+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0012s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:38:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+
+[ 2017-10-01T03:40:05+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:42:08+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:42:22+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0007s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:42:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0005s ]
+
+[ 2017-10-01T03:43:03+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:43:16+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0005s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+
+[ 2017-10-01T03:43:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/price.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `yd_line` [ RunTime:0.0004s ]
+SQL: SELECT bprice,addp,AsText(startg) as startg,AsText(endg) as endg FROM yd_line where id=5 [ RunTime:0.0004s ]
+

@@ -1,0 +1,174 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Admin\Model\AdminModel;
+use Admin\Model\FileModel;
+
+class AdminController extends IndexController {
+    
+    public function upload(){
+        $fileModel = new FileModel();
+        $data = $fileModel->imageUpload();
+        $this->ajaxReturn($data);
+    }
+    
+    
+    public function index(){
+        $this->display();
+    }
+
+    public function test(){
+        $this->display('Public/test');
+    }
+    
+    public function alist(){
+       $admin=new AdminModel();
+       $alist=$admin->getAdmins();
+       $this->assign("alist",$alist);
+       $this->display('Admin/list') ;
+    }
+    
+    public function aadd(){
+        if(empty($_POST)){
+            $this->assign('title','添加管理员');
+            $this->display('Admin/add');
+        }else{
+            $admin=new AdminModel();
+            $result=$admin->addAdmin();
+            if($result>0){
+                $this->success("操作成功！！","alist",2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function aedit(){
+        if(empty($_POST)){
+            $admin=new AdminModel();
+            $result = $admin->findOne($_GET['uid']);
+            $this->assign('title','更新管理员');
+            $this->assign('admin',$result);
+            $this->display('Admin/add');
+        }else{
+            $admin=new AdminModel();
+            $result=$admin->updateAdmin();
+            if($result>=0){
+                $this->success("操作成功！！",U('alist'),2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function adelete(){
+        $admin=new AdminModel();
+        $result=$admin->deleteAdmin($_GET['uid']);
+        if($result>0){
+            $this->success("操作成功！！",U('alist'),2);
+        }else{
+            $this->error("操作失败！！请重试");
+        }
+    }
+    
+    public function logout(){
+        $login = new LoginController();
+        $login ->logout();
+    }
+    
+    
+    public function register() {
+       $this->display('register') ;
+    }
+    
+    public function clist(){
+        $pcarObj= new PcarController();
+        $pcarObj->clist();
+    }
+    
+    public function cadd(){
+        $pcarObj= new PcarController();
+        $pcarObj->add();
+    }
+    
+    public function cedit(){
+        $pcarObj= new PcarController();
+        $pcarObj->edit();
+    }
+    public function cdelete(){
+        $pcarObj= new PcarController();
+        $pcarObj->delete();
+    }
+    
+    public function nlist(){
+        $newsObj = new NewsController();
+        $newsObj->nlist();
+    }
+    
+    public function nadd(){
+        $newsObj = new NewsController();
+        $newsObj->add();
+    }
+    
+    public function nedit(){
+        $newsObj = new NewsController();
+        $newsObj->edit();
+    }
+    
+    public function ndelete(){
+        $newsObj = new NewsController();
+        $newsObj->delete();
+    }
+    
+    public function mlist(){
+        $menuObj = new MenuController();
+        $menuObj ->mlist();
+    }
+    public function madd(){
+        $menuObj = new MenuController();
+        $menuObj ->addMenu();
+    }
+    
+    
+    public function rlist(){
+        $roleObj = new RoleController();
+        $roleObj->rlist();
+    }
+    
+    public function radd(){
+        $roleObj = new RoleController();
+        $roleObj ->radd();
+    }
+    
+    public function redit(){
+        $roleObj = new RoleController();
+        $roleObj ->redit();
+    }
+    
+    public function rdelete(){
+        $roleObj = new RoleController();
+        $roleObj ->rdelete();
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

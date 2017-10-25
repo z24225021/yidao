@@ -1,0 +1,41 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Admin\Model\AdminModel;
+class LoginController extends Controller {
+    
+    function _empty() {
+        $this->error("空操作！","Login/login");
+    }
+    
+    public function login(){
+        if (! empty($_POST)) {
+            $verify = new \Think\Verify();
+            if (! $verify->check($_POST['verify'],'')) {
+                $data['code'] =0;
+                $data['msg']= '验证码错误！';
+            } else {
+                $user = new AdminModel();
+                $result = $user->login($_POST['username'], md5($_POST['password']));
+                if ($result > 0) {
+                    S('admin',$result,3600);
+                    $data['code'] = 200;
+                    $data['url'] = "Admin/Admin/index";
+                    $data['msg'] = "登陆成功";
+                    $data['admin'] = $result;
+                } else {
+                    $data['code'] = 0;
+                    $data['msg'] = "用户名或密码不正确";
+                }
+            }
+            $this->ajaxReturn($data);
+        } else {
+            layout(false);
+            $this->display("Public/login");
+        }
+    }
+    public function logout(){
+        S('admin',null);
+        $this->redirect('Login/login', 1);
+    }
+}

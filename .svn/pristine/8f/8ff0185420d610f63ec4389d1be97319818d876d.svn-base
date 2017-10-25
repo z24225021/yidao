@@ -1,0 +1,70 @@
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=2c4052cc5bbdc6f72929dda7cdc11531"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.10"></script>
+<div id="container" style="margin-top: 40px"></div>
+<div class="button-group">
+    <input id="calc" type="button" class="button" value="绘制多边形"/>
+    <input id="clear" type="button" class="button" value="清除多边形"/>
+	<div id="result">
+		
+	
+	</div>
+</div>
+<script type="text/javascript">
+	document.getElementById("search_header").style.display='none';
+    //初始化地图对象，加载地图
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        zoom: 13
+    });
+
+    var path =[];
+    var i=0;
+    var markers=[];
+	map.on('click',function(e){
+		
+		//自定义标记
+		AMapUI.loadUI(['overlay/SimpleMarker'], function(SimpleMarker) {
+	        markers[i] = new SimpleMarker({
+	              iconLabel: ++i,
+	              map: map,
+	              position: e.lnglat
+	        });
+	    });
+	/* 	普通标记
+		new AMap.Marker({
+		        map: map,
+		        position: e.lnglat,
+		        label: 
+		        
+		    });  
+	*/
+	    path.push(e.lnglat);
+	});
+	var polygon;
+ 	AMap.event.addDomListener(document.getElementById('calc'), 'click', function() {
+ 		document.getElementById('result').innerHTML = path.join(',');
+	    polygon = new AMap.Polygon({
+	        map: map,
+	        path: path,
+	        strokeColor: "#0000ff",
+            strokeOpacity: 1,
+            strokeWeight: 3,
+            fillColor: "#f5deb3",
+            fillOpacity: 0.35
+	    });
+	    map.setFitView();
+/*         
+		alert('点是否在多边形内：' + polygon.contains(myMarker.getPosition())); 
+*/
+    }); 
+	
+ 	AMap.event.addDomListener(document.getElementById('clear'), 'click', function() {
+ 		path=[];
+ 		i=0;
+ 		map.remove(polygon);
+ 		map.remove(markers);
+    }); 
+ 	
+</script>

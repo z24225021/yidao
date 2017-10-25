@@ -1,0 +1,57 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Think\Think;
+use Think\Verify;
+use Home\Model\UserModel;
+/**
+ * 
+ * @author zhou
+ * 炼人的世界，生活亦如此
+ */
+
+
+class UserController extends IndexController {
+    
+   
+    
+    
+    public function index(){
+
+        
+        $this->display('index');
+    }
+    
+    public function ulist(){
+      
+        
+        
+        $this->display('list');
+    }
+    public function add(){
+      
+        
+        
+        $this->display('add');
+    }
+    
+    
+
+    
+    public function logout(){
+        session(null);
+        $this->redirect('Home/Index/login');
+    }
+    
+    
+    /* 验证码，用于登录和注册 */
+    public function verify(){
+        $verify = new \Think\Verify();
+        $verify->entry();
+    }
+    
+    public function checkVerify($code, $id = ''){
+        $verify = new \Think\Verify();
+        return $verify->check($code, $id);
+    }
+}

@@ -1,0 +1,50 @@
+<div class="btn-toolbar list-toolbar">
+	<div class="btn btn-primary">{$title}</div>
+</div>
+<div id="home" class="">
+	<form action="__SELF__"  method="post">
+		<div class="form-group col-md-12">
+			<input type="hidden" name="id" value="{$info['id']}"> 
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+			<label>角色名称</label><br>
+			<div class="col-md-6">
+			<input type="text" name="name" class="form-control"
+				value="{$info['name']}" placeholder="请角色名称">
+				</div>
+		</div>
+		<div class="form-group col-md-12">
+			<label>角色权限</label><br>
+			<div class="col-md-6">
+			  <volist name="menu" id="vo"  empty="暂时没有数据">
+			  <div class="pull-left unstyled col-sm-4 col-md-4" >
+                        <p><input type="checkbox" name="rules[]" id="rule{$vo['id']}" value="{$vo['id']}"
+                        <in name="vo['id']" value="$info['rules']">checked="checked"</in>  
+                        > {$vo['name']} </p>
+              </div>
+   			  </volist>
+			</div>
+		</div>
+		<div class="btn-toolbar list-toolbar">
+			<button type="submit" class="btn btn-primary">
+				<i class="fa fa-save"></i> 保存
+			</button>
+			<button type="reset" class="btn btn-danger">
+				<i class="fa fa-reset"></i> 重置
+			</button>
+		</div>
+	</form>
+</div>
+<script>
+/* 
+function setCheckbox(id){
+	var tid = 'rule'+id;
+	var rule = document.getElementById(tid);
+	if(rule.checked){
+		rule.checked=false;
+	}else{
+		rule.checked=true;
+	}
+}
+ */
+
+</script>

@@ -1,0 +1,42 @@
+[ 2017-04-20T17:58:16+08:00 ] 127.0.0.1 /yidao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-04-20T18:08:53+08:00 ] 127.0.0.1 /yidao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: homeId F:\AppServ\www\yidao\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+

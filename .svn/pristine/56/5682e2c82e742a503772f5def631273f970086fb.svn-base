@@ -1,0 +1,19 @@
+
+<link rel="stylesheet" href="__PUBLIC__/bootstrapall/css/bootstrap.css">
+<script type="text/javascript" src="__PUBLIC__/bootstrapall/js/jquery-3.1.0.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/bootstrapall/js/bootstrap.js"></script>
+
+
+<div>
+<a>
+
+hello world!!!
+
+</a>
+<a href="#" id="dropdownMenu1"  data-toggle="dropdown"  >{:S('user')['username']} <b class="caret"></b></a>
+									<ul  class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                		<li><a href="">修改密码</a></li>
+                                		<li><a href="{:U('Index/selfCenter')}">个人中心</a></li>
+                                		<li><a href="{:U('logout')}">退出</a></li>
+                            		</ul>
+</div>

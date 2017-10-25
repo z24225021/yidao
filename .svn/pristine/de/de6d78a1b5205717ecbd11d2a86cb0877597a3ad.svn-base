@@ -1,0 +1,156 @@
+[ 2017-04-14T16:26:57+08:00 ] 127.0.0.1 /yidao/index.php/Admin/index/cMenu.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 28 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-14T16:29:14+08:00 ] 127.0.0.1 /yidao/index.php/Admin/index/cMenu.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 28 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-14T16:29:20+08:00 ] 127.0.0.1 /yidao/index.php/Admin/admin/cMenu.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 28 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-14T16:29:33+08:00 ] 127.0.0.1 /yidao/index.php/Admin/index/cMenu.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 28 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-14T16:29:41+08:00 ] 127.0.0.1 /yidao/index.php/Admin/admin/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pid F:\AppServ\www\yidao\Application\Admin\Controller\IndexController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-04-14T16:29:41+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id,cdate asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yd_type` WHERE ( pid= ) ORDER BY id,cdate asc 
+
+[ 2017-04-14T16:29:43+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=9 ) ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+
+[ 2017-04-14T16:29:44+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Menu/mlist?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\MenuModel::getMenu(), called in F:\AppServ\www\yidao\Application\Admin\Controller\MenuController.class.php on line 18 and defined F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 29 行.
+NOTIC: [8] Undefined variable: param F:\AppServ\www\yidao\Application\Admin\Model\MenuModel.class.php 第 30 行.
+SQL: SELECT * FROM `yd_type` ORDER BY id,cdate asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-04-14T16:29:44+08:00 ] 127.0.0.1 /yidao/index.php/Admin/Index/cMenu.cc?pid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=2 ) ORDER BY id,cdate asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yd_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yd_type` WHERE ( pid=9 ) ORDER BY id,cdate asc  [ RunTime:0.0002s ]
+

@@ -1,0 +1,26 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Lib\Alidayu\SendSMS;
+class SendmsgController extends Controller {
+    
+  /*   public function index(){
+        layout(false);
+        return $this->sendSMS();
+    } */
+    
+    public function sendSMSYZ(){
+        session_start();
+        $recNum =$_POST['phonenum'];
+        $verifycode = strval(rand(1000,9999));
+        $_SESSION['verifycode'] = "1111";
+        $_SESSION['time'] = time();
+        
+        var_dump($_SESSION["verifycode"]);
+        $result="成功！";
+       /*  
+        $alidayu = new SendSMS();
+        $result = $alidayu->send($recNum, $smsParam='{"number":"'.$verifycode.'"}', $smsTemplateCode="SMS_75235001", $smsFreeSignName=唯一客网站);
+         */
+    }
+}

@@ -1,0 +1,252 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+
+<!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>河南一道科技有限公司</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+
+
+<link rel="stylesheet" href="/yidao/Public/static/css/animate.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/icomoon.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/flexslider.css">
+<link rel="stylesheet" href="/yidao/Public/static/css/style.css">
+
+<link href="/yidao/Public/bootstrapall/css/docs.css" rel="stylesheet">
+<link href="/yidao/Public/bootstrapall/css/onethink.css" rel="stylesheet">
+
+<!-- Modernizr JS -->
+
+<link rel="stylesheet" href="/yidao/Public/bootstrapall/css/bootstrap.css">
+<script src="/yidao/Public/static/js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="/yidao/Public/bootstrapall/js/jquery-3.1.0.min.js"></script> 
+<script type="text/javascript" src="/yidao/Public/bootstrapall/js/bootstrap.js"></script>
+	<!-- Waypoints -->
+	<script src="/yidao/Public/static/js/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="/yidao/Public/static/js/owl.carousel.min.js"></script>
+	<!-- Flexslider -->
+	<script src="/yidao/Public/static/js/jquery.flexslider-min.js"></script>
+	<!-- MAIN JS -->
+	<script src="/yidao/Public/static/js/main.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<style type="text/css">
+h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway","微软雅黑", Arial, sans-serif,"黑体";
+}
+
+.lia{
+	padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border: 2px solid #27e1ce;
+    color: #27E1CE;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+	transition: 0.2s;
+}
+
+
+</style>
+	
+</head>
+<body>
+	<div id="fh5co-page">
+		<header id="fh5co-header" role="banner">
+			<div class="container">
+				<div class="header-inner">
+					<h1>
+						<a href="<?php echo U('Index/index');?>">一道科技</a>
+					</h1>
+					<nav role="navigation">
+						<ul>
+							<li><a href="<?php echo U('Index/index');?>">首页</a></li>
+							<li><a href="<?php echo U('Index/about');?>">公司简介</a></li>
+							<li><a href="<?php echo U('Index/news');?>">公司动态</a></li>
+							<li><a href="<?php echo U('Index/contact');?>">联系我们</a></li>
+							
+							<?php if(S('user') == null): ?><li ><a class="lia" style="color:#27E1CE;" href="<?php echo U('Index/login');?>">会员登录</a></li>
+							<?php else: ?> 
+								<div class="dropdown pull-right">  
+									<li ><a href="#" class="lia" style="color:#27E1CE;" data-toggle="dropdown"  ><?php echo S('user')['username'];?> <b class="caret"></b></a>
+										<ul  class="dropdown-menu dropdown-menu-left" style="min-width:120px" >
+	                                		<li class="dropdown" ><a href="">修改密码</a></li>
+	                                		<li ><a href="<?php echo U('Index/selfCenter');?>" >个人中心</a></li>
+	                                		<li ><a href="<?php echo U('Index/selfCenter');?>" >我的订单</a></li>
+	                                		<li ><a href="<?php echo U('logout');?>" >注销登录</a></li>
+	                            		</ul>
+									</li>
+								</div><?php endif; ?>
+							
+						</ul>
+					</nav>
+				</div>
+			</div>
+			
+		</header>
+ <header class="jumbotron subhead" id="overview">
+	<div class="container">
+		<h2 style="font-family: '黑体';color:white;">个人中心</h2>
+		<p>
+			<span><span class="pull-left"><span> </span> </span>
+		</p>
+	</div>
+</header>
+
+<div id="main-container" class="container">
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab">个人资料</a></li>
+  <li><a href="#pwd" data-toggle="tab">修改密码</a></li>
+  <li><a href="#identity" data-toggle="tab">身份认真</a></li>
+</ul>
+    <div class="row" >
+    
+	<div class="col-md-7">
+		<div id="myTabContent" class="tab-content">
+				<div class="tab-pane active in" id="home">
+					<form id="tab_home">
+						<div class="form-group">
+							<label>用户名</label> 
+							<input type="text" value="jsmith" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>性别</label> <input type="text" value="John"
+								class="form-control">
+						</div>
+						<div class="form-group">
+							<label>真实姓名</label> <input type="text" value="Smith"
+								class="form-control">
+						</div>
+						<div class="form-group">
+							<label>手机号</label> <input type="text"
+								value="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Email</label> <input type="text" value="jsmith@yourcompany.com" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>地址</label>
+							<textarea value="Smith" rows="3" class="form-control">洛阳市西工区健康西路西100米升龙广场a座11号楼3单元1601室</textarea>
+						</div>
+						<div class="btn-toolbar list-toolbar">
+							<button class="btn btn-primary">
+								<i class="fa fa-save"></i> 保存
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane fade" id="pwd">
+					<form id="tab_pwd">
+						<div class="form-group">
+				            <label>原密码</label>
+				            <input type="password" class="form-control">
+				        </div>
+						<div class="form-group">
+				            <label>新密码</label>
+				            <input type="password" class="form-control">
+				        </div>
+						<div class="form-group">
+				            <label>确认密码</label>
+				            <input type="password" class="form-control">
+				        </div>
+				        <div>
+				            <button class="btn btn-primary">提交</button>
+			          	</div>
+						
+					</form>
+				</div>
+				<div class="tab-pane fade" id="identity">
+					<form id="tab_identity">
+						<div class="form-group">
+							<label>用户名</label> 
+							<input type="text" value="jsmith" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>性别</label> <input type="text" value="John"
+								class="form-control">
+						</div>
+						<div class="form-group">
+							<label>真实姓名</label> <input type="text" value="Smith"
+								class="form-control">
+						</div>
+						<div class="form-group">
+							<label>手机号</label> <input type="text"
+								value="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Email</label> <input type="text" value="jsmith@yourcompany.com" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>地址</label>
+							<textarea value="Smith" rows="3" class="form-control">洛阳市西工区健康西路西100米升龙广场a座11号楼3单元1601室</textarea>
+						</div>
+						<div class="btn-toolbar list-toolbar">
+							<button class="btn btn-primary">
+								<i class="fa fa-save"></i> 保存
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+	</div>
+	
+	</div>
+</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+	
+		<div class="container">
+			<div class="col-md-6  col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>关于我们</h3>
+				<ul class="float">
+					<li><a href="#">公司地址：洛阳市西工区升龙广场a座11号楼3单元1601室</a></li>
+					<li><a href="#">联系电话：037968600800</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<ul class="float">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+
+			</div>
+			<div class="col-md-6  col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>产品服务</h3>
+				<ul class="float">
+					<li><a href="#">软件应用开发服务</a></li>
+					<li><a href="#">网络约车服务</a></li>
+					
+				</ul>
+				<ul class="float">
+					<li><a href="#">汽车租赁服务</a></li>
+					<li><a href="#">拼车服务</a></li>
+				<!-- 	<li><a href="#">Free HTML5 &amp; CSS3 Template</a></li>
+					<li><a href="#">HandCrafted Templates</a></li> -->
+				</ul>
+
+			</div>
+
+			
+			<div class="col-md-12 fh5co-copyright text-center">
+				<p style="color: white;">&copy; 2016 河南一道科技公司. All Rights Reserved. <span>Designed with  河南一道科技工程部</span></p>	
+			</div>
+			
+		</div>
+	</footer>

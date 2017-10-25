@@ -1,0 +1,41 @@
+<?php
+namespace Ydapi\Controller;
+use Think\Controller;
+use Admin\Controller\SendmsgController;
+use Home\Model\UserModel;
+class IndexController extends Controller {
+    public function index(){
+        layout(false);
+        $this->show();
+    }
+    
+    public function login(){
+        $user = new UserModel();
+        $result = $user->login($_POST['username'], md5($_POST['password']));
+        if ($result > 0) {
+            S('user',$result,3600);
+            $data['code'] = 200;
+            $data['url'] = U("Home/ycar");
+            $data['msg'] = "登陆成功";
+            $data['info'] = $result;
+        } else {
+            $data['code'] = 0;
+            $data['msg'] = "用户名或密码不正确";
+        }
+        $this->ajaxReturn($data);
+    }
+    
+    public function yanzheng(){
+        $sms= new SendmsgController();
+        $sms->index();
+    }
+    
+    public function register(){
+        $user = new UserModel();
+        if($_POST["verifycode"]!=session("smsverity")){
+            $user->register($_POST['phonenum'], $_POST['password']);
+        }
+        
+    }
+    
+}

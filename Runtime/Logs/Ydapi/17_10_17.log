@@ -1,0 +1,308 @@
+[ 2017-10-17T09:58:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-10-17T10:01:23+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-10-17T11:34:38+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-10-17T13:58:36+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-10-17T14:17:13+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-10-17T14:28:49+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2017-10-17T14:29:43+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/changepwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `yd_user` WHERE `id` = 'dd18000000000' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-17T14:30:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/changepwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_user` WHERE `id` = 'dd18988888888' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='96e79218965eb72c92a549dd5a330112',`pass`='111111' WHERE `id` = 'dd18988888888' [ RunTime:0.0381s ]
+NOTIC: [8] Undefined index: phonenum F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php 第 236 行.
+
+[ 2017-10-17T14:31:24+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005852s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-10-17T14:31:38+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-10-17T14:31:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/changepwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yd_user` WHERE `id` = 'dd18988888888' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='e10adc3949ba59abbe56e057f20f883e',`pass`='123456' WHERE `id` = 'dd18988888888' [ RunTime:0.0224s ]
+NOTIC: [8] Undefined index: phonenum F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php 第 234 行.
+
+[ 2017-10-17T14:32:15+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/changepwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yd_user` WHERE `id` = 'dd18988888888' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='96e79218965eb72c92a549dd5a330112',`pass`='111111' WHERE `id` = 'dd18988888888' [ RunTime:0.0388s ]
+
+[ 2017-10-17T14:32:32+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-10-17T14:32:38+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-10-17T14:37:13+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/forgetpwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0313s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='e10adc3949ba59abbe56e057f20f883e',`pass`='123456' WHERE `id` = 'dd18988888888' [ RunTime:0.0375s ]
+NOTIC: [8] Undefined variable: info F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php 第 214 行.
+
+[ 2017-10-17T14:37:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/forgetpwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='96e79218965eb72c92a549dd5a330112',`pass`='111111' WHERE `id` = 'dd18988888888' [ RunTime:0.0223s ]
+
+[ 2017-10-17T14:37:59+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/forgetpwd.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `yd_user` SET `password`='96e79218965eb72c92a549dd5a330112',`pass`='111111' WHERE `id` = 'dd18988888888' [ RunTime:0.0150s ]
+

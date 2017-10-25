@@ -1,0 +1,163 @@
+<?php
+
+namespace Home\Model;
+use Think\Model;
+require_once 'i.php';
+
+/**
+ * {0}
+ * 
+ * @author
+ * @version 
+ */
+class UserModel extends Model
+{
+    /**
+     * 注册一个新用户
+     * @param  string $username 用户名
+     * @param  string $password 用户密码
+     * @param  string $email    用户邮箱
+     * @param  string $mobile   用户手机号码
+     * @return integer          注册成功-用户信息，注册失败-错误编号
+     */
+    public function register($username, $password){
+        $phonenum=$username;
+        $data = array(
+            'id' =>'yh'.$phonenum,
+            'username' => $phonenum,
+            'password' => md5($password),
+            'pass' => $password,
+            'create_time'=>Date('Y-m-d H:i:s')
+        );
+        /* 添加用户 */
+        if($this->create($data)){
+            $reid = $this->add();
+            return $reid; //0-未知错误，大于0-注册成功
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        }
+    }
+    /**
+     * 检测用户名是不是被禁止注册
+     * @param  string $username 用户名
+     * @return boolean          ture - 未禁用，false - 禁止注册
+     */
+    public function checkDenyMember($username){
+        $map['username'] = $username;
+        $user = $this->where($map)->find();
+        if(is_array($user) ){
+            return true; 
+        } else {
+            return false; //用户不存在
+        }
+    }
+    
+    
+    /**
+     * 用户登录认证
+     * @param  string  $username 用户名
+     * @param  string  $password 用户密码
+     * @param  integer $type     用户名类型 （1-用户名，2-邮箱，3-手机，4-UID）
+     * @return integer           登录成功-用户ID，登录失败-错误编号
+     */
+    public function login($username, $password, $type = 1){
+        $map['username'] = $username;
+        /* 获取用户数据 */
+        $user = $this->where($map)->find();
+        if(is_array($user) ){
+            /* 验证用户密码 */
+            if(md5($password) ==$user['password']){
+//                 $this->updateLogin($user['id']); //更新用户登录信息
+                return $user; //登录成功，返回用户ID
+            } else {
+                return -2; //密码错误
+            }
+        } else {
+            return 0; //用户不存在或被禁用
+        }
+    }
+    
+    function updatePwd($username, $password){
+        $data=array(
+            'password' =>md5($password),
+        );
+        /* 更新用户 */
+        if($this->create($data)){
+            $map["phonenum"] = $username;
+            $reid = $this->where($map)->save($data);
+            return $reid ;
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        }
+    }
+    //更新登陆信息
+    function updateLogin($userid){
+        
+            
+        
+    }
+    
+    function getUserInfo($uid){
+        $map['id']=$uid;
+        $user = $this->where($map)->find();
+        return $user;
+    }
+    
+    function getUserAllInfo(){
+        $m=M();
+        $result=$m->query("select * from yd_user_info where id >50");
+    }
+    
+    function getUserDetail($uid){
+        $m=M('user_info');
+        $map['id']=$uid;
+        $user = $m->where($map)->find();
+        return $user;
+    }
+    
+    /**
+     * 创建用户信息
+     * @param  $uid
+     * @return mixed|boolean|unknown|string|string
+     */
+    function createUserInfo($uid,$phonenum){
+        $m=M('user_info');
+        $data=array(
+            'id' =>$uid,
+            'uid' =>$uid,
+            'phonenum' =>$phonenum
+        );
+        if($m->create($data)){
+            $reid = $m->add();
+            $this-> $reid; //0-未知错误，大于0-注册成功
+        } else {
+            return $m->getError(); //错误详情见自动验证注释
+        }
+    }
+    
+    /**
+     * 更新用户信息
+     * @return boolean|string
+     */
+    function saveUserInfo(){
+        $m=M('user_info');
+        $data=array(
+            'id'=>$_POST['uid'],
+            'name' => $_POST['name'],
+            'addr' => $_POST['addr'],
+            'age' => $_POST['age'],
+            'cardid' => $_POST['cardid'],
+            'sex' => $_POST['sex'],
+            'pic' => $_POST['pic'],
+            'cardbackpic' => $_POST['cardbackpic'],
+            'cardfontpic' => $_POST['cardfontpic'],
+        );
+        if($m->create($data)){
+            $reid = $m->save();
+            return $reid ;
+        } else {
+            return $m->getError(); //错误详情见自动验证注释
+        }
+    }
+    
+}

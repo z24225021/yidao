@@ -1,0 +1,39 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Admin\Model\MenuModel;
+class IndexController extends Controller {
+    
+    static public $treeList = array(); //存放无限分类结果如果一页面有多个无限分类可以使用 Tool::$treeList = array(); 清空
+   /*  function _empty() {
+        $this->redirect("Admin/login/login");
+    } */
+    
+    // 自动登录
+    public function _initialize(){
+        $admin= S('admin');
+        if(!$admin) {
+            /* $data['code']=0;
+            $data['msg']='对不起,您还没有登录!请先登录再进行浏览';
+            $data['url']="Login/login";
+            $this->ajaxReturn($data); */
+            $this->error('对不起,您还没有登录!请先登录再进行浏览', U('Login/login'), 1);
+        }else{
+            $menu=new MenuModel();
+            $menuList = $menu->getMenu("pid=2");
+            $this->assign('menu',$menuList);
+            $this->assign("menupid",$_GET['pid']);
+        }
+    }
+    
+    
+    public function cmenu()
+    {
+        $menu=new MenuModel();
+        $param="pid=".$_GET['pid'];
+        $menuList = $menu->getMenu($param);
+        $arr['code']=0;
+        $arr['msg']=$menuList;
+        $this->ajaxReturn($arr); 
+    }
+ }

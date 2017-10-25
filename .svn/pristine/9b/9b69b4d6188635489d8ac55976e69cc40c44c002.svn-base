@@ -1,0 +1,65 @@
+<div class="btn-toolbar list-toolbar">
+    <div class="btn btn-primary">{$title}</div>
+</div>
+<div class="tab-pane active in" id="home">
+      <form id="tab" action="__SELF__" method="post">
+        <div class="form-group">
+        <label>出发城市</label>
+          <input type="text" name="startcity" id="start"  class="form-control" value="{$line['startcity']}"  placeholder="请输入出发城市">
+        	<p id="serror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>终点城市</label>
+          <input type="text" name="endcity" id="end" class="form-control" value="{$line['endcity']}"  placeholder="请输入终点城市">
+        	<p id="eerror" class="bg-danger"></p>
+        </div>
+        <div class="form-group">
+        <label>线路</label><br>
+			<input type="hidden" name="uid" value="{:S('admin')['id']}"> 
+        	<input type="hidden" name="id" value="{$line['id']}">
+        	<input type="hidden" name="uptime" value="{$line['uptime']}">
+        	<div class="form-group">
+	        	<div class="col-md-4">
+		          	<input type="text" id="sname" class="form-control" value="{$line['startcity']}" readonly="readonly" >
+	        	</div>
+	        	<div class="col-md-1" style="text-align: center;">至</div>
+	        	<div class="col-md-4">
+		          	<input type="text" id="ename" class="form-control" value="{$line['endcity']}" readonly="readonly" > 
+	        	</div>
+        	</div><br>
+        </div>
+	    <div class="btn-toolbar list-toolbar">
+	      <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存</button>
+	      <button type="reset" class="btn btn-danger"><i class="fa fa-reset"></i> 重置</button>
+	    </div>
+        </form>
+</div>
+<script>
+$(document).ready(function(){
+	  $("#start").focus(function(){
+		  $("#serror").text("");
+	  });
+	  $("#end").focus(function(){
+		  $("#eerror").text("");
+	  });
+	  $("#start").blur(function(){
+			if($("#start").val()==""){
+				$("#serror").text("请输入出发城市");
+			}else{
+				$("#sname").val($("#start").val());
+			}
+	  });
+	  $("#end").blur(function(){
+			if($("#end").val()==""){
+				$("#eerror").text("请输入终点城市");
+			}else{
+				$("#ename").val($("#end").val());
+			}
+	  });
+	});
+</script>
+      
+      
+      
+      
+      

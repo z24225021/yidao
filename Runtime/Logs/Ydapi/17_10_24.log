@@ -1,0 +1,438 @@
+[ 2017-10-24T11:01:24+08:00 ] 192.168.4.101 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-10-24T11:09:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.3867s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0007s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.1003s ]
+
+[ 2017-10-24T11:09:51+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 500 行.
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0387s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.id = 'zxc18637136723' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0019s ]
+
+[ 2017-10-24T11:11:08+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 500 行.
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.id = 'zxc18637136723' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0018s ]
+
+[ 2017-10-24T11:26:19+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 500 行.
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0003s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE ( user.id=loc.id AND user.id = info.uid ) AND user.id = 'zxc18637136723' LIMIT 1   [ RunTime:0.0086s ]
+
+[ 2017-10-24T11:26:30+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0017s ]
+
+[ 2017-10-24T11:27:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0006s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0019s ]
+
+[ 2017-10-24T11:27:06+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '1' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0018s ]
+
+[ 2017-10-24T11:27:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0020s ]
+
+[ 2017-10-24T11:27:27+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0017s ]
+
+[ 2017-10-24T11:27:28+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0018s ]
+
+[ 2017-10-24T11:27:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0018s ]
+
+[ 2017-10-24T11:27:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0003s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0016s ]
+
+[ 2017-10-24T11:27:43+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 510 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '1' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0019s ]
+
+[ 2017-10-24T16:20:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-10-24T16:21:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0014s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-10-24T16:28:18+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-10-24T16:28:37+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-10-24T16:29:08+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0094s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-10-24T16:30:03+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0020s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-10-24T16:30:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0014s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-10-24T16:31:28+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-10-24T16:32:10+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0137s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-10-24T16:32:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0016s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-10-24T16:34:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0017s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-10-24T16:35:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0018s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-24T16:35:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-24T16:35:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-24T16:35:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0090s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yd_orderlist` SET `state`='2' WHERE `id` = 'yc1507975698' [ RunTime:0.1058s ]
+SQL: SELECT `uid`,`did`,`type` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-24T16:35:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yd_orderlist` SET `state`='3' WHERE `id` = 'yc1507975698' [ RunTime:0.0617s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0886s ]
+SQL: UPDATE `yd_orderline` SET `arrivetime`='1508834147' WHERE `oid` = 'yc1507975698' [ RunTime:0.0456s ]
+
+[ 2017-10-24T16:35:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `yd_orderlist` SET `state`='4' WHERE `id` = 'yc1507975698' [ RunTime:0.0579s ]
+
+[ 2017-10-24T16:36:00+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-24T08:36:08+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yd_orderlist` SET `state`='1' WHERE `id` = 'yc1507975698' [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0013s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Ydapi\Controller\SendmsgController.class.php 第 93 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Ydapi\Controller\SendmsgController.class.php 第 93 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Ydapi\Controller\SendmsgController.class.php 第 94 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Ydapi\Controller\SendmsgController.class.php 第 94 行.
+
+[ 2017-10-24T16:36:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `yd_orderlist` SET `state`='-1' WHERE `id` = 'yc1507975698' [ RunTime:0.0441s ]
+
+[ 2017-10-24T16:36:37+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/upstate.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `state` FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+

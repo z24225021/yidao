@@ -1,0 +1,55 @@
+<div class="btn-toolbar list-toolbar">
+    <div class="btn btn-primary">{$title}</div>
+</div>
+<div class="tab-pane active in" id="home">
+      <form id="tab" action="__SELF__" method="post">
+        <div class="form-group">
+        <label>手机号</label>
+        	<input type="hidden" name="id" value="{$info['id']}">
+       		<input type="hidden" name="create_time" value="{$info['create_time']}">
+          	<input type="text" name="username" class="form-control" value="{$info['username']}" placeholder="请输入手机号"> 
+        </div>
+        <div class="form-group">
+        <label>类型</label>
+             <select name="usertype" id="dropUserType" class="form-control">
+					<option value="0" >乘客</option>
+					<option value="1" >顺风车</option>
+					<option value="2" >专车</option>
+					<option value="3" >专线车</option>
+					<option value="4" >调度</option>
+            </select>
+        </div>
+        <div class="form-group" id="cteam" style ="display:none;">
+        <label>车队</label>
+             <select name="carteam" id="DropDownteamzone" class="form-control">
+	             <volist  name="teams" id="vo" empty="$empty">
+	             	<option value="{$vo.id}" >{$vo.name}</option>
+	             </volist>
+            </select>
+        </div>
+        <div class="form-group">
+        <label>密码</label>
+          <input type="text" name="password" class="form-control"  value="{$info['pass']==null?'123456':$info['pass']}" readonly="readonly">
+        </div>
+        <div class="form-group">
+        <label>Email</label>
+          <input type="text" name="email" class="form-control"  value="{$info['email']}" placeholder="请输入邮箱">
+        </div>
+	    <div class="btn-toolbar list-toolbar">
+	      <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存</button>
+	      <button type="reset" class="btn btn-danger"><i class="fa fa-reset"></i> 重置</button>
+	    </div>
+        </form>
+      </div>
+      
+<script>
+$("#dropUserType").change(function(){
+	if(4==$("#dropUserType").val()||3==$("#dropUserType").val()){
+		$("#cteam").show();
+	}else{
+		$("#cteam").hide();
+	}
+});
+
+</script>
+

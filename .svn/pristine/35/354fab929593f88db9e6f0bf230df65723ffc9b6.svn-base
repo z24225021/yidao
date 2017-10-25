@@ -1,0 +1,115 @@
+<?php
+namespace Ydapi\Controller;
+use Think\Controller;
+use Admin\Controller\SendmsgController;
+use Home\Model\UserModel;
+class IndexController extends Controller {
+    public function index(){
+        layout(false);
+        $this->show();
+    }
+    
+    public function login(){
+        $user = new UserModel();
+        $result = $user->login($_POST['username'], md5($_POST['password']));
+        if ($result > 0) {
+            S('user',$result,3600);
+            $data['code'] = 200;
+            $data['msg'] = "登陆成功";
+            $data['info'] = $result;
+        } else {
+            $data['code'] = 0;
+            $data['msg'] = "用户名或密码不正确";
+        }
+        $this->ajaxReturn($data);
+    }
+    
+    public function yanzheng(){
+        $sms= new SendmsgController();
+        $result=$sms->sendSMSYZ();
+        if(is_array($result)){
+            $data["code"]="200";
+            $data["msg"]="发送成功！";
+            $data["info"]=$result;
+        }else{
+            $data["code"]="0";
+            $data["msg"]="发送失败！";
+        }
+    }
+    
+    public function register(){
+        $user = new UserModel();
+        if(session("verifycode")!=$_POST["smsverify"]){
+            $data['code'] = 0;
+            $data['msg'] = "短信验证码不正确";
+            $data['result']=session("verifycode")."````````````````````````````````````````````".$_POST['smsverify']."`````````````````````````````";
+        }else if($user->checkDenyMember($_POST['phonenum'])){
+            $data['code'] = 0;
+            $data['msg'] = "手机号已被注册";
+        }else{
+            $result=$user->register($_POST['phonenum'], md5($_POST['password']));
+            if($result > 0){
+                $data['code'] = 200;
+                $data['msg'] = "注册成功";
+                $info['uid'] = 'yh'.$_POST['phonenum'];
+                $info['phonenum'] = $_POST['phonenum'];
+                $data['info']=$info;
+            } else {
+                $data['code'] = 0;
+                $data['msg'] = "注册失败";
+            }
+        }
+        $this->ajaxReturn($data);
+    }
+  
+    public function userinfo(){
+        $user = new UserModel();
+        $result=$user->getUserInfo($_POST['uid']);
+        if(is_array($result)){
+            $data['code'] = 200;
+            $data['msg'] = "";
+            $info['uid'] = $_POST['uid'];
+            $data['info'] = $info;
+        } else {
+            $data['code'] = 0;
+            $data['msg'] = "获取失败";
+        }
+        $this->ajaxReturn($data);
+    }
+    
+    public function forgetpwd(){
+        $user = new UserModel();
+        if(session("verifycode")!=$_POST["smsverity"]){
+            $data['code'] = 0;
+            $data['msg'] = "短信验证码不正确";
+        }else if(!$user->checkDenyMember($_POST['phonenum'])){
+            $data['code'] = 0;
+            $data['msg'] = "手机号未注册";
+        }else{
+            $result=$user->updatePwd($_POST['phonenum'], md5($_POST['password']));
+            if($result> 0){
+                $data['code'] = 200;
+                $data['msg'] = "修改成功";
+                $info['uid']='yh'.$_POST['phonenum'];
+                $info['phonenum'] = $_POST['phonenum'];
+                $data['info']=$info;
+            } else if($result==0){
+                $data['code'] = 0;
+                $data['msg'] = "请使用不同密码";
+            }else {
+                $data['code'] = 0;
+                $data['msg'] = "修改失败";
+            }
+        }
+        $this->ajaxReturn($data);
+    }
+    
+    function carpoolorder() {
+        
+        
+        
+    }
+    
+    
+    
+}

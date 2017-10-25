@@ -1,0 +1,406 @@
+[ 2017-10-20T09:39:12+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-10-20T10:07:13+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-10-20T02:41:31+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\aliyun-php-sdk-core\RpcAcsRequest.php 第 104 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\aliyun-php-sdk-core\RpcAcsRequest.php 第 82 行.
+
+[ 2017-10-20T02:44:08+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 69 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 69 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\aliyun-php-sdk-core\RpcAcsRequest.php 第 104 行.
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\aliyun-php-sdk-core\RpcAcsRequest.php 第 82 行.
+
+[ 2017-10-20T02:46:27+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 69 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 69 行.
+
+[ 2017-10-20T02:53:02+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 75 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 75 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 76 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 76 行.
+
+[ 2017-10-20T03:03:13+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2] Missing argument 2 for Admin\Controller\SendmsgController::sendMsgAli(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 48 and defined F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 28 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 75 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 75 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 76 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 76 行.
+
+[ 2017-10-20T03:12:09+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [2] Missing argument 2 for Admin\Controller\SendmsgController::sendMsgAli(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 48 and defined F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 29 行.
+NOTIC: [8] Undefined index: phonenum F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 36 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 86 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 86 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+ERR: MissingPhoneNumbers PhoneNumbers is mandatory for this action. HTTP Status: 400 RequestID: FC70D3FD-7EF4-4FE3-901B-D81B6BBF0D50
+
+[ 2017-10-20T11:12:17+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0124s ]
+SQL: SELECT `id`,`phonenum`,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-10-20T11:12:41+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0973s ]
+SQL: SELECT `id`,`phonenum`,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2017-10-20T11:14:30+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0121s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-10-20T11:16:59+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0122s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-10-20T11:19:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0147s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-10-20T11:20:39+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0121s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-10-20T11:20:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0288s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-10-20T03:28:26+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0181s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+
+[ 2017-10-20T03:29:42+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0185s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+
+[ 2017-10-20T03:32:27+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0121s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+
+[ 2017-10-20T03:35:01+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0123s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+
+[ 2017-10-20T03:37:05+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0114s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+
+[ 2017-10-20T03:40:08+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0146s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 49 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 49 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 90 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 90 行.
+
+[ 2017-10-20T03:40:32+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0010s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 89 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 90 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 90 行.
+
+[ 2017-10-20T03:43:13+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/smsnotice.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0172s ]
+SQL: SELECT id as oid,phonenum as name,book_time as time FROM `yd_orderlist` WHERE `id` = 'yc1507975698' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 87 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 88 行.
+
+[ 2017-10-20T15:32:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003387s ]
+
+[ 2017-10-20T18:03:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0257s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id  )  [ RunTime:0.0021s ]
+
+[ 2017-10-20T18:05:06+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'loc.nowloc' in 'field list'
+ [ SQL语句 ] : SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc locd,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid ) 
+ERR: 1054:Unknown column 'loc.nowloc' in 'field list'
+ [ SQL语句 ] : SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc locd,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid ) 
+
+[ 2017-10-20T18:20:08+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0019s ]
+
+[ 2017-10-20T18:20:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0018s ]
+
+[ 2017-10-20T18:21:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'loc.nowloc' in 'field list'
+ [ SQL语句 ] : SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc locs,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid ) 
+ERR: 1054:Unknown column 'loc.nowloc' in 'field list'
+ [ SQL语句 ] : SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc locs,yd_user_info as info WHERE user.carteam = '2' AND user.type = 3 AND user.isopen = '1' AND ( user.id=loc.id AND user.id = info.uid ) 
+

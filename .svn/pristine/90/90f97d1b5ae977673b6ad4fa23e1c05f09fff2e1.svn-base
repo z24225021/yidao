@@ -1,0 +1,1227 @@
+<style type="text/css">
+.window-container .window-head .toolbar {
+    display: flex;
+    height: 55px;
+    padding: 0 .8em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+ .title{
+ 	color: #333;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: 700;
+ }
+a, a:hover {
+    text-decoration: none;
+	color:#333;
+}
+li {list-style-type:none;}
+.left{
+	position:fixed;
+	width:15%;
+	background-color: #ddd;
+	margin-right:15px;
+	padding-right:15px;
+	float:left;
+	z-index:100px;
+}
+#main{
+	width:75%;
+	float:right;
+	margin-bottom: 50px;	
+}
+
+.window{
+	width:75%;
+	margin:0 auto;
+}
+table{
+	width: 70%;
+	font-family: "Microsoft Yahei", 微软雅黑, Arial;
+}
+table th {
+    height: auto;
+    background-color: #666;
+    color: #fff;
+    text-align: left;
+}
+dd{
+	color:#666;
+	font-size: 1.5em;
+}
+   
+ </style>
+ <script language=javascript>
+var lastScrollY=0;
+function backtop()
+{
+var diffY=document.body.scrollTop;
+var percent=.1*(diffY-lastScrollY);
+if(percent>0)
+{
+ percent=Math.ceil(percent);
+}
+else
+{
+percent=Math.floor(percent);
+}
+document.all.left.style.pixelTop+=percent;
+lastScrollY=lastScrollY+percent;
+}
+window.setInterval("backtop()",10);
+</script>
+ 
+<div class="window">
+	<div class="window-head">
+		<div class="toolbar">
+			<a class="title" href="{:U('Ydapi/Index/index')}">一道约车完全开发手册</a>
+			<div class="extra"></div>
+		</div>
+	</div>
+	<div>
+		<div style="height:2px;background-color: #136ec2;">
+		</div>
+	</div>
+    <div class="container">
+        <div id="left" class="left">
+            <ul>
+               <li><a href="#dz">地址</a></li>
+               <li><a>登录模块</a></li>
+               <ul>
+               <li class=""><a href="#dl">登录</a></li>
+               <li class=""><a href="#dx">短信验证码</a></li>
+               <li class=""><a href="#zc">注册</a></li>
+               </ul>
+               <li><a href="#yh">用户模块</a></li>
+               <ul>
+               <li class=""><a href="#yhxx">用户信息</a></li>
+               <li class=""><a href="#gxyhxx">更新用户信息</a></li>
+               </ul>
+               <li><a href="#dd">订单模块</a></li>
+               <ul>
+               <li class=""><a href="#fbdd">发布订单</a></li>
+               <li class=""><a href="#xgdd">修改订单</a></li>
+               <li class=""><a href="#hqddxq">获取订单详情</a></li>
+               <li class=""><a href="#hqddlb">获取订单列表</a></li>
+               <li class=""><a href="#xgddsx">修改订单属性</a></li>
+               </ul>
+               <li><a href="#other">其他模块</a></li>
+               <ul>
+               <li class=""><a href="#sctp">上传图片</a></li>
+               <li class=""><a href="#line">获取线路</a></li>
+               <li class=""><a href="#ltot">线路对应车队</a></li>
+               </ul>
+            </ul>
+        </div>
+	    <div id="main">
+	    	<div id="dz">
+	    	 	<dd>请求地址：</dd>
+	    		<table border="1" cellpadding="0" cellspacing="0" >
+	            <tbody >
+	            	<tr>
+	                    <th width="30%">环境</th>
+	                    <th width="60%">HTTP请求地址</th>
+	                    <th>API接口名称</th>
+	                </tr>
+	                <tr>
+	                    <td>正式环境</td>
+	                    <td>http://</td>
+	                    <td>method</td>
+	                </tr>
+	                <tr>
+	                    <td>沙箱环境</td>
+	                    <td>http://192.168.4.111/yidao/index.php/ydapi/index/</td>
+	                    <td>method</td>
+	                </tr>
+	            </tbody>
+	       	 	</table>
+	    	</div><br>
+			<div id="m1">
+		        <dd id="dl">登录：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>login</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户名</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<d1>返回：</d1><br>
+		       	<pre>
+成功
+{
+    "code": 200,
+    "msg": "登陆成功",
+    "info": {
+        "id": "yh18682923463",
+        "username": "18682923463",
+        "password": "25f9e794323b453885f5181f1b624d0b",
+        "pass": "123456789",
+        "update_time": "2017-08-09 19:10:13",
+        "create_time": "2017-08-09 19:10:13",
+        "email": null
+    }
+}
+失败：
+{
+  "code": 0,
+  "msg": "用户名或密码不正确"
+}
+				</pre>
+		        <dd id="dx">短信验证码：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>yanzheng</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<br>
+		        <dd id="zc">注册：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>register</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            <tr>
+		                <td>smsverify</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>短信验证码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+  成功：
+{
+    "code": 200,
+    "msg": "注册成功",
+    "info": {
+        "uid": "yh1803735122",
+        "phonenum": "1803735122"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "手机号已被注册"
+}
+验证码错误：
+{
+    "code": 0,
+    "msg": "短信验证码不正确"
+}
+		        </pre>
+		       	<br>
+		        <dd id="zc">修改密码：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>forgetpwd</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>手机号</td>
+		            </tr>
+		            <tr>
+		                <td>password</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>密码</td>
+		            </tr>
+		            <tr>
+		                <td>smsverify</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>短信验证码</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+  成功：
+{
+    "code": 200,
+    "msg": "密码修改成功",
+    "info": {
+        "uid": "yh1803735122",
+        "phonenum": "1803735122"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "手机号未注册"
+}
+验证码错误：
+{
+    "code": 0,
+    "msg": "短信验证码不正确"
+}
+		        </pre>
+			</div>
+			<div id="yh">
+				<dd id="yhxx">用户信息：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>userinfo</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>uid</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户id</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "",
+    "info": {
+        "id": "yh18888888888",
+        "name": null,
+        "pic": null,
+        "addr": null,
+        "age": null,
+        "phonenum": "18888888888",
+        "cardbackpic": null,
+        "cardfontpic": null,
+        "cardid": null,
+        "sex": null,
+        "uid": "yh18888888888"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "获取失败"
+}		        
+		        </pre>
+				<dd id="gxyhxx">更新用户信息：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>changeuser</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>uid</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户id</td>
+		            </tr>
+		            <tr>
+		                <td>name</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>用户姓名</td>
+		            </tr>
+		            <tr>
+		                <td>addr</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>用户住址</td>
+		            </tr>
+		            <tr>
+		                <td>age</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>年龄</td>
+		            </tr>
+		            <tr>
+		                <td>sex</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>性别（0：女，1：男）</td>
+		            </tr>
+		            <tr>
+		                <td>cardid</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>身份证号</td>
+		            </tr>
+		            <tr>
+		                <td>pic</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>图像</td>
+		            </tr>
+		            <tr>
+		                <td>cardfontpic</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>身份证正面</td>
+		            </tr>
+		            <tr>
+		                <td>cardbackpic</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>身份证反面</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "修改成功"
+}
+失败：
+{
+    "code": 0,
+    "msg": "修改失败"
+}
+		        </pre>
+			</div>
+			<div id="dd">
+				<dd id="fbdd">发布订单：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>carorder</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>uid</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>用户id</td>
+		            </tr>
+		            <tr>
+		                <td>startxy</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>出发点坐标</td>
+		            </tr>
+		            <tr>
+		                <td>startaddr</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>出发点具体位置</td>
+		            </tr>
+		            <tr>
+		                <td>endxy</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>终点坐标</td>
+		            </tr>
+		            <tr>
+		                <td>endaddr</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>终点具体位置</td>
+		            </tr>
+		            <tr>
+		                <td>line</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>路线（专线车/快递）</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>int</td>
+		                <td>是</td>
+		                <td>预约类型（0:顺风车/1:专车/2:专线车/3:城际快递）</td>
+		            </tr>
+		            <tr>
+		                <td>contact_name</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>联系人</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>string</td>
+		                <td>是</td>
+		                <td>联系电话</td>
+		            </tr>
+		            <tr>
+		                <td>pnum</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>人数</td>
+		            </tr>
+		            <tr>
+		                <td>pay</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>金额</td>
+		            </tr>
+		            <tr>
+		                <td>book_time</td>
+		                <td>timestamp</td>
+		                <td>否</td>
+		                <td>预订时间</td>
+		            </tr>
+		            <tr>
+		                <td>rname</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>接收者姓名</td>
+		            </tr>
+		            <tr>
+		                <td>rphone</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>接收者电话</td>
+		            </tr>
+		            <tr>
+		                <td>gname</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>物品名称</td>
+		            </tr>
+		             <tr>
+		                <td>gtype</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品类型</td>
+		            </tr>
+		             <tr>
+		                <td>gweight</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品重量</td>
+		            </tr>
+		             <tr>
+		                <td>glong</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品长度</td>
+		            </tr>
+		             <tr>
+		                <td>gwidth</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品宽度</td>
+		            </tr>
+		             <tr>
+		                <td>gheight</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品高度</td>
+		            </tr>
+		            <tr>
+		                <td>remark</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>备注</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "下单成功",
+}
+失败：
+{
+    "code": 0,
+    "msg": "预约失败"
+}		        
+		        </pre>
+				<dd id="xgdd">修改订单：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>editorder</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>id</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>订单id</td>
+		            </tr>
+		            <tr>
+		                <td>startxy</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>出发点坐标</td>
+		            </tr>
+		            <tr>
+		                <td>startaddr</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>出发点具体位置</td>
+		            </tr>
+		            <tr>
+		                <td>endxy</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>终点坐标</td>
+		            </tr>
+		            <tr>
+		                <td>endaddr</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>终点具体位置</td>
+		            </tr>
+		            <tr>
+		                <td>contact_name</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>联系人名字</td>
+		            </tr>
+		            <tr>
+		                <td>phonenum</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>联系电话</td>
+		            </tr>
+		            <tr>
+		                <td>pnum</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>人数</td>
+		            </tr>
+		            <tr>
+		                <td>pay</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>金额</td>
+		            </tr>
+		            <tr>
+		                <td>book_time</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>预定时间</td>
+		            </tr>
+		            <tr>
+		                <td>rname</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>接收者姓名</td>
+		            </tr>
+		            <tr>
+		                <td>rphone</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>接收者电话</td>
+		            </tr>
+		            <tr>
+		                <td>gname</td>
+		                <td>string</td>
+		                <td>否</td>
+		                <td>物品名称</td>
+		            </tr>
+		             <tr>
+		                <td>gtype</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品类型</td>
+		            </tr>
+		             <tr>
+		                <td>gweight</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品重量</td>
+		            </tr>
+		             <tr>
+		                <td>glong</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品长度</td>
+		            </tr>
+		             <tr>
+		                <td>gwidth</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品宽度</td>
+		            </tr>
+		             <tr>
+		                <td>gheight</td>
+		                <td>int</td>
+		                <td>否</td>
+		                <td>物品高度</td>
+		            </tr>
+		            <tr>
+		                <td>remark</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>备注</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "修改成功",
+}
+失败：
+{
+    "code": 0,
+    "msg": "修改失败"
+}		        
+		        </pre>
+				<dd id="hqddxq">获取订单详情：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>findorder</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>id</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>订单id</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "",
+    "info": {
+        "id": "fc1499670294",
+        "startxy": "dd",
+        "startaddr": "升龙广场a区",
+        "endxy": "aa",
+        "endaddr": "郑州东站",
+        "line": null,
+        "type": null,
+        "contact_name": null,
+        "phonenum": "18888888888",
+        "pnum": null,
+        "info_from": null,
+        "did": null,
+        "book_time": "2017-07-10 15:04:54",
+        "create_time": "2017-07-10 15:04:54",
+        "state": null,
+        "orderdelete": null,
+        "pay": null,
+        "remark": null,
+        "uid": "yd18888888888"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "获取失败"
+}	        
+		        </pre>
+				<dd id="hqddlb">获取订单列表：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>orderlist</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>uid</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>用户id</td>
+		            </tr>
+		            <tr>
+		                <td>state</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>订单状态</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "",
+    "info": [
+        {
+            "id": "fc1499652098",
+            "startxy": "dd",
+            "startaddr": "升龙广场a区",
+            "endxy": "aa",
+            "endaddr": "郑州东站",
+            "line": null,
+            "type": null,
+            "contact_name": null,
+            "phonenum": "18888888888",
+            "pnum": null,
+            "info_from": null,
+            "did": null,
+            "book_time": "2017-07-10 10:01:38",
+            "create_time": "2017-07-10 10:01:38",
+            "state": null,
+            "orderdelete": null,
+            "pay": null,
+            "remark": null,
+            "uid": "yd18888888888"
+        },
+        {
+            "id": "fc1499654852",
+            "startxy": "dd",
+            "startaddr": "升龙广场a区",
+            "endxy": "aa",
+            "endaddr": "郑州东站",
+            "line": null,
+            "type": null,
+            "contact_name": null,
+            "phonenum": "18888888888",
+            "pnum": null,
+            "info_from": null,
+            "did": null,
+            "book_time": "2017-07-10 10:47:32",
+            "create_time": "2017-07-10 10:47:32",
+            "state": null,
+            "orderdelete": null,
+            "pay": null,
+            "remark": null,
+            "uid": "yd18888888888"
+        }
+    ]
+}
+失败：
+{
+    "code": 0,
+    "msg": "获取失败"
+}	        
+		        </pre>
+				<dd id="xgddsx">修改订单属性：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>changeattr</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>id</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>订单id</td>
+		            </tr>
+		            <tr>
+		                <td>key</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>订单属性contact_name,phonenum,pnum,info_from,did,book_time,create_time,state,orderdelete,pay,remark		            
+						</td>
+		            </tr>
+		            <tr>
+		                <td>value</td>
+		                <td>String</td>
+		                <td>否</td>
+		                <td>属性值key:value同时存在</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		        <pre>
+成功：
+{
+    "code": 200,
+    "msg": "修改成功"
+}
+失败：
+{
+    "code": 0,
+    "msg": "修改失败"
+}	        
+		        </pre>
+			</div>
+    		<div id="other">
+		        <dd id="sctp">上传：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>upload</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>file</td>
+		                <td>file</td>
+		                <td>是</td>
+		                <td>文件</td>
+		            </tr>
+		            <tr>
+		                <td>uptype</td>
+		                <td>string</td>
+		                <td>是</td>
+		                <td>上传类型（头像：pic,证件上传：card,新闻：news）</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<d1>返回：</d1><br>
+		       	<pre>
+成功：
+{
+    "code": 200,
+    "msg": "上传成功！",
+    "info": {
+        "name": "3zwq.jpg",
+        "type": "image/jpeg",
+        "size": 1676584,
+        "key": "file",
+        "ext": "jpg",
+        "md5": "5547dfdc3560c9c540e709f363d15aaa",
+        "sha1": "0810e854baad27b13ee2d3dc3e3a5321eecb5ac0",
+        "savename": "598a732e779f6.jpg",
+        "savepath": "2017-08-09/"
+    }
+}
+失败：
+{
+    "code": 0,
+    "msg": "上传失败！",
+    "other": ""
+}
+
+				</pre>
+		        <dd id="line">线路获取：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>lines</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<d1>返回：</d1><br>
+		       	<pre>
+成功：
+{
+    "code": 200,
+    "msg": "",
+    "info": [
+        {
+            "id": "1",
+            "name": "洛阳-郑州",
+            "startcity": "洛阳",
+            "endcity": "郑州",
+            "uptime": "2017-08-11 15:29:32",
+            "uid": "1"
+        },
+        {
+            "id": "2",
+            "name": "洛阳-郑州机场",
+            "startcity": "洛阳",
+            "endcity": "郑州机场",
+            "uptime": "2017-08-11 15:32:14",
+            "uid": "1"
+        }
+    ]
+}
+失败：
+{
+    "code": 0,
+    "msg": "获取失败",
+}
+				</pre>
+		        <dd id="ltot">线路对应车队：</dd>
+				<table border="1" cellpadding="0" cellspacing="0">
+		            <thead>
+		            <tr>
+		                <th width="20%">名称</th>
+		                <th width="10%">类型</th>
+		                <th width="10%">是否必须</th>
+		                <th width="60%">描述</th>
+		            </tr>
+		            </thead>
+		            <tbody>
+		            <tr>
+		                <td>method</td>
+		                <td>String</td>
+		                <td>是</td>
+		                <td>linetoteam</td>
+		            </tr>
+		            <tr>
+		                <td>type</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>发送请求方式</td>
+		            </tr>
+		            <tr>
+		                <td>lineid</td>
+		                <td>post</td>
+		                <td>是</td>
+		                <td>线路id</td>
+		            </tr>
+		            </tbody>
+		        </table>
+		       	<d1>返回：</d1><br>
+		       	<pre>
+成功：
+{
+    "code": 200,
+    "msg": "",
+    "info": [
+        {
+            "id": "1",
+            "name": "一道",
+            "lines": "1,2",
+            "uid": "1"
+        },
+        {
+            "id": "4",
+            "name": "11",
+            "lines": "1,2",
+            "uid": "1"
+        }
+    ]
+}
+失败：
+{
+    "code": 0,
+    "msg": "获取异常",
+}
+				</pre>
+			</div>
+		</div>
+    </div>
+</div>
+<script>
+	
+</script>
+

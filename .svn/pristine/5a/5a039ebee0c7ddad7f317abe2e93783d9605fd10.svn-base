@@ -1,0 +1,105 @@
+<?php
+namespace Admin\Controller;
+use Think\Controller;
+use Think\Think;
+use Think\Verify;
+use Home\Model\UserModel;
+use Admin\Model\LineModel;
+use Admin\Model\TeamModel;
+/**
+ * 
+ * @author zhou
+ * 炼人的世界，生活亦如此
+ */
+
+
+class ManagerController extends IndexController {
+    
+    
+    public function index(){
+        $this->display('index');
+    }
+    
+    public function lineList(){
+        $lineObj=new LineModel();
+        $lines=$lineObj->llist();
+        $this->assign("lines",$lines);
+        $this->display('Line/list') ;
+    }
+    
+    public function lineAdd(){
+        if(empty($_POST)){
+            $this->assign('title','添加线路');
+            $this->display('Line/add');
+        }else{
+            $lineObj=new LineModel();
+            $result=$lineObj->addLine();
+            if($result>0){
+                $this->success("操作成功！！",U('llist'),2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function teamList(){
+           $teamObj = new TeamModel();
+           $result = $teamObj->tlist();
+           $this->assign("teams",$result);
+           $this->display('Team/list');
+    }
+    
+    
+    
+    public function teamAdd(){
+        if(empty($_POST)){
+            $lineObj=new LineModel();
+            $lines=$lineObj->llist();
+            $this->assign('title','添加车队');
+            $this->assign('lines',$lines);
+            $this->display('Team/add');
+        }else{
+            $teamObj=new TeamModel();
+            $result=$teamObj->addTeam();
+            if($result>0){
+                $this->success("操作成功！！",U('tlist'),2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function teamEdit(){
+        if(empty($_POST)){
+            $lineObj=new LineModel();
+            $lines=$lineObj->llist();
+            $this->assign('title','更新车队');
+            $this->assign('lines',$lines);
+            $teamObj = new TeamModel();
+            $result = $teamObj->findOne($_GET['id']);
+            $this->assign('info',$result);
+            $this->display('Team/add');
+        }else{
+            $teamObj=new TeamModel();
+            $result=$teamObj->editTeam();
+            if($result>0){
+                $this->success("操作成功！！",U('tlist'),2);
+            }else{
+                $this->error("操作失败！！请重试");
+            }
+        }
+    }
+    
+    public function teamDelete(){
+        $teamObj=new TeamModel();
+        $result =  $teamObj->deleteTeam($_GET['id']);
+        if($result>0){
+            $this->success("操作成功！！",U('tlist'),2);
+        }else{
+            $this->error("操作失败！！请重试");
+        }
+    }
+    
+    
+    
+}

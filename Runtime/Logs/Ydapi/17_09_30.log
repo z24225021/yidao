@@ -1,0 +1,757 @@
+[ 2017-09-30T12:08:21+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-09-30T12:14:15+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 423 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT user.id as uid,user.username as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc WHERE user.carteam = '1' AND ( user.id=loc.id )  [ RunTime:0.0004s ]
+
+[ 2017-09-30T12:18:37+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 424 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT user.id as uid,user.username as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc WHERE user.carteam = '1' AND user.type = 3 AND ( user.id=loc.id )  [ RunTime:0.0004s ]
+
+[ 2017-09-30T14:13:50+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-09-30T14:14:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:27:46+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-09-30T14:35:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:35:59+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:36:00+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:37:09+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:37:10+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:37:11+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:37:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-sms-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:38:26+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T06:39:37+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T06:40:59+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T06:41:27+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T06:43:46+00:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/yanzheng.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 67 行.
+NOTIC: [2] include_once(./vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php): failed to open stream: No such file or directory F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+NOTIC: [2] include_once(): Failed opening './vendor/aliyun-php-sdk-core/Request/V20170525/SendSmsRequest.php' for inclusion (include_path='.;C:\php\pear') F:\AppServ\www\yidao\Application\Admin\Controller\SendmsgController.class.php 第 68 行.
+
+[ 2017-09-30T14:45:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 424 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,user.username as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc WHERE user.carteam = '1' AND user.type = 3 AND ( user.id=loc.id )  [ RunTime:0.0002s ]
+
+[ 2017-09-30T14:46:50+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 424 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT user.id as uid,user.username as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc WHERE user.carteam = '1' AND user.type = 3 AND ( user.id=loc.id )  [ RunTime:0.0003s ]
+
+[ 2017-09-30T16:17:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-09-30T17:54:00+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-09-30T17:54:11+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-09-30T17:54:17+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-09-30T17:54:30+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-09-30T17:56:48+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 20 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-09-30T19:38:45+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:39:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:39:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: state F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 130 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-09-30T19:40:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: state F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 130 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:40:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: state F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 130 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `carteam` = 1 AND `book_time` = 1506700800 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:40:51+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:41:25+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-09-30T19:41:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:42:35+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:48:59+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0006s ]
+
+[ 2017-09-30T19:49:23+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:49:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-09-30T19:52:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:53:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-09-30T19:57:15+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0005s ]
+
+[ 2017-09-30T19:57:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+NOTIC: [8] Undefined index: tday F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 147 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:57:34+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 AND `book_time` BETWEEN 1506700800 AND 1506787200 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-09-30T19:57:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T19:58:19+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0005s ]
+
+[ 2017-09-30T19:59:58+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T20:00:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 126 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 143 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` = 0 AND `carteam` = 1 AND `book_time` BETWEEN 1506700800 AND 1506787200 ORDER BY book_time asc,id desc  [ RunTime:0.0003s ]
+
+[ 2017-09-30T22:37:28+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-09-30T22:37:41+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-09-30T22:37:51+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-09-30T22:44:25+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-09-30T22:45:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 101 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-09-30T23:57:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yd_orderlist` WHERE `uid` = 'dd18988888888' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: uid F:\AppServ\www\yidao\Application\Home\Model\PcarModel.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+

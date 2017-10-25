@@ -1,0 +1,35 @@
+<?php
+namespace Ydapi\Controller;
+use Think\Controller;
+use Admin\Controller\SendmsgController;
+use Home\Model\UserModel;
+use Home\Model\PcarModel;
+use JPush\Client;
+class JPushController extends Controller {
+    private $appKey = '4e908589e155c02b21b38db5';
+    private $masterSecret = '2a567370b5dcc01346d1b1e2';
+    public function index(){
+        layout(false);
+        $this->show();
+    }
+    
+    public function sendNotifyAll(){
+       
+        $client = new Client($this->appKey, $this->masterSecret);
+        $result = $client->push()
+        ->setPlatform('all')
+        ->addAllAudience()
+        ->setNotificationAlert('Hello, JPush')
+        ->send();
+        print_r($result);
+        echo "success";
+    }
+    
+    public function sendAll(){
+        
+        
+        
+        
+    }
+    
+}

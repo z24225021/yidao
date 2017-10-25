@@ -1,0 +1,92 @@
+<?php
+namespace Admin\Model;
+
+
+use Think\Model;
+class LineModel extends Model
+{
+    public function llist(){
+        $lines = $this->select();
+        return $lines;
+    }
+    public function addLine(){
+        $data = array(
+            'name' =>$_POST['startcity']."-".$_POST['endcity'],
+            'startcity'  =>$_POST['startcity'],
+            'endcity'  =>$_POST['endcity'],
+            'uid' =>$_POST['uid'],
+        );
+        if($this->create($data)){
+            $id = $this->add($data);
+            return $id ? $id : 0; 
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        } 
+    }
+    
+    public function deleteLine($param){
+        $where = array('id'=>$param);
+        $result = $this->where($where)->delete();
+        return $result;
+    }
+    
+    public function editLine(){
+        $data=array(
+            'id'=>$_POST['id'],
+            'name'=>$_POST['startcity']."-".$_POST['endcity'],
+            'startcity'  =>$_POST['startcity'],
+            'endcity'  =>$_POST['endcity'],
+            'uid' =>$_POST['uid']
+        );
+        if($this->create($data)){
+            $id = $this->save($data);
+            return $id ;
+        } else {
+            return $this->getError(); //错误详情见自动验证注释
+        }
+    }
+    
+    public function findOne($param){
+        $where = array('id'=>$param);
+        $type = $this->where($where)->find();
+        return $type;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+?>

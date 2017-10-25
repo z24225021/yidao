@@ -1,0 +1,652 @@
+[ 2017-10-14T10:06:01+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2017-10-14T10:29:55+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-10-14T10:30:59+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/findorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0192s ]
+SQL: SELECT list.id as oid,list.startxy as startxy,list.startaddr as startaddr,list.endxy as endxy,list.endaddr as endaddr,list.line as lineid,list.type as otype,list.contact_name as contact_name,list.phonenum as phonenum,list.pnum as pnum,list.info_from as info_from,list.did as did,list.book_time as book_time,list.create_time as create_time,list.state as state,list.orderdelete as orderdelete,list.pay as pay,list.grade as grade,list.suggest as suggest,list.remark as remark,list.uid as uid,list.rname as rname,list.rphone as rphone,list.gname as gname,list.gtype as gtype,list.gweight as gweight,list.glong as glong,list.gwidth as gwidth,list.gheight as gheight,list.carteam as carteam,oline.route as route,oline.gettime as gettime,oline.arrivetime as arrivetime,user.name as uname,line.name as linename FROM yd_orderlist as list LEFT JOIN yd_orderline as oline on list.id = oline.oid LEFT JOIN yd_user_info as user on list.did = user.id LEFT JOIN yd_line as line on list.line = line.id  WHERE list.id = 'yc1506801927' LIMIT 1   [ RunTime:0.0114s ]
+
+[ 2017-10-14T10:31:23+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/linetoteam.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `yd_carteam` [ RunTime:0.1093s ]
+NOTIC: [8] Undefined index: lineid F:\AppServ\www\yidao\Application\Admin\Model\TeamModel.class.php 第 60 行.
+SQL: SELECT * FROM `yd_carteam`  [ RunTime:0.0136s ]
+
+[ 2017-10-14T10:31:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/linetoteam.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `yd_carteam` [ RunTime:0.0360s ]
+NOTIC: [8] Undefined index: lineid F:\AppServ\www\yidao\Application\Admin\Model\TeamModel.class.php 第 60 行.
+SQL: SELECT * FROM `yd_carteam`  [ RunTime:0.0002s ]
+
+[ 2017-10-14T10:33:16+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/linetoteam.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `yd_carteam` [ RunTime:0.6964s ]
+NOTIC: [8] Undefined index: lineid F:\AppServ\www\yidao\Application\Admin\Model\TeamModel.class.php 第 60 行.
+SQL: SELECT * FROM `yd_carteam`  [ RunTime:0.0004s ]
+
+[ 2017-10-14T10:33:20+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/linetoteam.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `yd_carteam` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: lineid F:\AppServ\www\yidao\Application\Admin\Model\TeamModel.class.php 第 60 行.
+SQL: SELECT * FROM `yd_carteam`  [ RunTime:0.0065s ]
+
+[ 2017-10-14T10:33:54+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/linetoteam.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `yd_carteam` [ RunTime:0.0549s ]
+NOTIC: [8] Undefined index: lineid F:\AppServ\www\yidao\Application\Admin\Model\TeamModel.class.php 第 60 行.
+SQL: SELECT * FROM `yd_carteam`  [ RunTime:0.0006s ]
+
+[ 2017-10-14T11:48:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: oid F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php 第 631 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+
+[ 2017-10-14T11:59:09+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0018s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0003s ]
+
+[ 2017-10-14T11:59:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0626s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0004s ]
+
+[ 2017-10-14T12:00:17+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0358s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923464',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0025s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923464' WHERE `id` = 'yc1507953002' [ RunTime:0.0004s ]
+
+[ 2017-10-14T12:00:35+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0016s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0005s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923463' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+
+[ 2017-10-14T12:02:06+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923464',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0013s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923464' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+
+[ 2017-10-14T12:03:21+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0018s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0014s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923463' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+
+[ 2017-10-14T12:04:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+
+[ 2017-10-14T12:04:33+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0019s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923464',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0305s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923464' WHERE `id` = 'yc1507953002' [ RunTime:0.0004s ]
+
+[ 2017-10-14T12:15:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+
+[ 2017-10-14T12:16:05+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+ERR: 1054:Unknown column 'oid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`oid` FROM `yd_orderlist` LIMIT 1  
+
+[ 2017-10-14T12:16:36+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`did` FROM `yd_orderlist` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-10-14T12:23:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0459s ]
+ERR: Think\Model:getPushUserId方法不存在！
+
+[ 2017-10-14T12:23:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0072s ]
+ERR: Think\Model:getPushUserId方法不存在！
+
+[ 2017-10-14T12:23:43+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0007s ]
+ERR: Think\Model:getPushUserId方法不存在！
+
+[ 2017-10-14T12:24:01+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`did` FROM `yd_orderlist` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-10-14T12:24:29+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`did` FROM `yd_orderlist` LIMIT 1   [ RunTime:0.0133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-10-14T12:24:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`did` FROM `yd_orderlist` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-10-14T12:24:42+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`did` FROM `yd_orderlist` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-10-14T12:25:02+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0106s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0005s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923463' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: orderId F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 232 行.
+ERR: Think\Controller:sendNotifyToUser方法不存在！
+
+[ 2017-10-14T12:26:23+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0008s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0002s ]
+
+[ 2017-10-14T12:26:45+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0018s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923464',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0463s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0005s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923464' WHERE `oid` = 'yc1507953002' [ RunTime:0.0491s ]
+
+[ 2017-10-14T12:26:49+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0009s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507953002' [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0004s ]
+SQL: UPDATE `yd_orderline` SET `did`='zxc18682923463' WHERE `oid` = 'yc1507953002' [ RunTime:0.0410s ]
+
+[ 2017-10-14T12:36:32+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0015s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `id` = 'zxc17737900523' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-10-14T12:38:24+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0009s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `id` = 'zxc17737900523' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-10-14T13:58:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/robdeal.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0841s ]
+SQL: UPDATE `yd_orderlist` SET `did`='zxc18682923463',`state`='1' WHERE `id` = 'yc1507960517' [ RunTime:0.0003s ]
+
+[ 2017-10-14T15:37:19+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0246s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-10-14T15:50:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0363s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0004s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `isopen` = 1 AND `carteam` = 2 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-10-14T15:50:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0239s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `isopen` = 1 AND `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-10-14T15:51:40+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0007s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `isopen` = 1 AND `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-10-14T15:52:48+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `isopen` = 1 AND `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2017-10-14T15:54:09+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 188 行.
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0006s ]
+SQL: SELECT `carteam` FROM `yd_orderlist` WHERE `id` = 'yc1507953002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `isopen` = 1 AND `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-10-14T16:39:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/orderlist.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0323s ]
+NOTIC: [8] Undefined index: uid F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 133 行.
+NOTIC: [8] Undefined index: ordertype F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 148 行.
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 156 行.
+SQL: SELECT * FROM `yd_orderlist` WHERE `state` IN ('0','1') AND `carteam` = 1 ORDER BY book_time asc,id desc  [ RunTime:0.0004s ]
+
+[ 2017-10-14T18:04:22+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/editorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0326s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 71 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 79 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 81 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 85 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 86 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 87 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 88 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 89 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 90 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 91 行.
+SQL: UPDATE `yd_orderlist` SET `line`=NULL,`type`='3',`startxy`='34.652133,112.403366',`startaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`endxy`='34.652133,112.403366',`endaddr`='洛阳市 哈哈镜鸭脖子(秀水3号店)',`contact_name`=NULL,`phonenum`='2366',`pnum`=NULL,`book_time`='1506789000',`remark`=NULL,`uid`='dd18988888888',`pay`='11',`rname`=NULL,`rphone`=NULL,`gname`=NULL,`gtype`=NULL,`gweight`=NULL,`glong`=NULL,`gwidth`=NULL,`gheight`=NULL,`carteam`='2' WHERE `id` = 'yc1506786758' [ RunTime:0.0081s ]
+
+[ 2017-10-14T18:04:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/carorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 33 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: rname F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 39 行.
+NOTIC: [8] Undefined index: rphone F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 40 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: gtype F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 42 行.
+NOTIC: [8] Undefined index: gweight F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 43 行.
+NOTIC: [8] Undefined index: glong F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 44 行.
+NOTIC: [8] Undefined index: gwidth F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 45 行.
+NOTIC: [8] Undefined index: gheight F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 46 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderlist` (`id`,`type`,`uid`,`line`,`startxy`,`startaddr`,`endxy`,`endaddr`,`contact_name`,`phonenum`,`pnum`,`pay`,`book_time`,`remark`,`rname`,`rphone`,`gname`,`gtype`,`gweight`,`glong`,`gwidth`,`gheight`,`carteam`) VALUES ('yc1507975478','3','dd18988888888',NULL,'34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)','34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)',NULL,'2366',NULL,'11','1506789000',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2') [ RunTime:0.0356s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0013s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `carteam` = 2 AND `type` = 4  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderline` (`uid`,`oid`) VALUES ('dd18988888888','yc1507975478') [ RunTime:0.0213s ]
+
+[ 2017-10-14T18:06:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/carorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 33 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: gname F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderlist` (`id`,`type`,`uid`,`line`,`startxy`,`startaddr`,`endxy`,`endaddr`,`contact_name`,`phonenum`,`pnum`,`pay`,`book_time`,`remark`,`rname`,`rphone`,`gname`,`gtype`,`gweight`,`glong`,`gwidth`,`gheight`,`carteam`) VALUES ('yc1507975616','3','dd18988888888',NULL,'34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)','34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)',NULL,'2366',NULL,'11','1506789000',NULL,'ddsd','23232323',NULL,'1','2','2','10','10','2') [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `carteam` = 2 AND `type` = 4  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderline` (`uid`,`oid`) VALUES ('dd18988888888','yc1507975616') [ RunTime:0.1135s ]
+
+[ 2017-10-14T18:07:30+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/carorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: line F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 33 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderlist` (`id`,`type`,`uid`,`line`,`startxy`,`startaddr`,`endxy`,`endaddr`,`contact_name`,`phonenum`,`pnum`,`pay`,`book_time`,`remark`,`rname`,`rphone`,`gname`,`gtype`,`gweight`,`glong`,`gwidth`,`gheight`,`carteam`) VALUES ('yc1507975650','3','dd18988888888',NULL,'34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)','34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)',NULL,'2366',NULL,'11','1506789000',NULL,'ddsd','23232323','sdfsdd','1','2','2','10','10','2') [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0005s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `carteam` = 2 AND `type` = 4  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderline` (`uid`,`oid`) VALUES ('dd18988888888','yc1507975650') [ RunTime:0.0315s ]
+
+[ 2017-10-14T18:08:18+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/carorder.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `yd_orderlist` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: contact_name F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 33 行.
+NOTIC: [8] Undefined index: pnum F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: remark F:\AppServ\www\yidao\Application\Admin\Model\PcarModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderlist` (`id`,`type`,`uid`,`line`,`startxy`,`startaddr`,`endxy`,`endaddr`,`contact_name`,`phonenum`,`pnum`,`pay`,`book_time`,`remark`,`rname`,`rphone`,`gname`,`gtype`,`gweight`,`glong`,`gwidth`,`gheight`,`carteam`) VALUES ('yc1507975698','3','dd18988888888','5','34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)','34.652133,112.403366','洛阳市 哈哈镜鸭脖子(秀水3号店)',NULL,'2366',NULL,'11','1506789000',NULL,'ddsd','23232323','sdfsdd','1','2','2','10','10','3') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0007s ]
+SQL: SELECT `regid` FROM `yd_user` WHERE `carteam` = 3 AND `type` = 4  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yd_orderline` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\AppServ\www\yidao\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `yd_orderline` (`uid`,`oid`) VALUES ('dd18988888888','yc1507975698') [ RunTime:0.0659s ]
+

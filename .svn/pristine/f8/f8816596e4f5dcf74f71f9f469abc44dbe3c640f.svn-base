@@ -1,0 +1,47 @@
+<aside id="fh5co-hero" class="js-fullheight">
+	<div class="flexslider js-fullheight">
+			<ul class="slides">
+		
+		   	<li style="background-image: url(__PUBLIC__/static/images/02.jpg);">
+		   		<div class="container">
+		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+		   				<div class="slider-text-inner">
+		   					<h2>一道陪你走过灿烂的旅途</h2>
+		   					<br/>
+		   					<p><a href="#" class="btn btn-primary btn-lg">陪伴</a></p>
+		   				</div>
+		   			</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	 </div>
+</aside>
+
+
+<volist name="news" id="vo" empty="暂时没有数据"  offset="0" length='10' key="k">
+	<div class="fh5co-team">
+	</if> 
+		<div class="container" >
+			<div class="col-md-2">
+				<a href="premium-blog-item.html" class="thumb"><img
+					src="__PUBLIC__/static/images/image_1.jpg"
+					class="img-responsive hidden-xs"></a>
+			</div>
+			<div class="col-md-10">
+				<div class="post-summary">
+					<h4 style="margin: 0px;">
+						<a href="premium-blog-item.html">{$vo['title']}</a>
+					</h4>
+					<p class="text-sm" style="margin: 0px;">{$vo['creat_time']}</p>
+					<p style="margin: 0px;">
+					一道公司前期主要从事汽车租赁服务，公司拥有5座轿车和商务车160多台，为个人、企事业单位、公务员提供用车服务。。。。。。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</volist>
+
+
+

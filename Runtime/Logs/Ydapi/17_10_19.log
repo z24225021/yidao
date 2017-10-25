@@ -1,0 +1,356 @@
+[ 2017-10-19T10:50:58+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 539 行.
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+ERR: 1054:Unknown column 'uid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,username as phone FROM `yd_user` WHERE `type` = 4 
+ERR: 1054:Unknown column 'uid' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,username as phone FROM `yd_user` WHERE `type` = 4 
+
+[ 2017-10-19T10:51:20+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.1362s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 539 行.
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `type` = 4  [ RunTime:0.1022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-10-19T10:51:47+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-10-19T10:51:53+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `carteam` = 2 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-10-19T10:51:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.2531s ]
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `carteam` = 3 AND `type` = 4  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-10-19T10:56:41+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0209s ]
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-10-19T10:57:04+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/uphone.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0278s ]
+NOTIC: [8] Undefined index: utype F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 543 行.
+SQL: SELECT `id`,username as phone FROM `yd_user` WHERE `carteam` = 1 AND `type` = 4  [ RunTime:0.0002s ]
+
+[ 2017-10-19T11:19:26+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0255s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+NOTIC: [8] Undefined index: did F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 509 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '1' AND user.type = 3 AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0120s ]
+
+[ 2017-10-19T11:19:36+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0778s ]
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.carteam = '1' AND user.type = 3 AND user.id = 'zxc13027530606' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0545s ]
+
+[ 2017-10-19T11:19:55+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/gloc.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.3778s ]
+NOTIC: [8] Undefined index: carteam F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 500 行.
+NOTIC: [8] Undefined index: isopen F:\AppServ\www\yidao\Application\Home\Model\UserModel.class.php 第 505 行.
+SQL: SHOW COLUMNS FROM `yd_user` [ RunTime:0.0004s ]
+SQL: SELECT user.id as uid,info.name as name,loc.nowloc as loc FROM yd_user user,yd_user_loc loc,yd_user_info as info WHERE user.id = 'zxc13027530606' AND ( user.id=loc.id AND user.id = info.uid )  [ RunTime:0.0010s ]
+
+[ 2017-10-19T11:56:26+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-10-19T12:58:35+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [2] Missing argument 1 for WxPayApi::unifiedOrder(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\WechatPayController.class.php on line 32 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 26 行.
+NOTIC: [8] Undefined variable: inputObj F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 30 行.
+
+[ 2017-10-19T13:07:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2] Missing argument 1 for WxPayApi::unifiedOrder(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\WechatPayController.class.php on line 36 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 26 行.
+NOTIC: [8] Undefined variable: inputObj F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 30 行.
+
+[ 2017-10-19T13:08:57+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 76 行.
+NOTIC: [8] Array to string conversion F:\AppServ\www\yidao\Application\Ydapi\Controller\WechatPayController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-10-19T13:09:38+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-10-19T13:14:14+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-10-19T13:15:46+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-10-19T13:17:01+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-19T13:17:44+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: appid F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 72 行.
+NOTIC: [8] Undefined index: mch_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 73 行.
+NOTIC: [8] Undefined index: prepay_id F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 74 行.
+NOTIC: [8] Undefined index: nonce_str F:\AppServ\www\yidao\ThinkPHP\Library\Vendor\Wxpay\WxPay.Api.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-10-19T13:22:13+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2017-10-19T13:37:01+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/Index/test.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-10-19T16:28:38+08:00 ] 192.168.4.102 /yidao/index.php/ydapi/index/index.cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-10-19T16:29:31+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-10-19T16:30:52+08:00 ] 127.0.0.1 /yidao/index.php/ydapi/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\AppServ\www\yidao\Application\Ydapi\Controller\IndexController.class.php on line 21 and defined F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\AppServ\www\yidao\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
